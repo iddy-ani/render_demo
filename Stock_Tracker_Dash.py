@@ -9,6 +9,7 @@ import yfinance as yf
 import datetime as dt
 
 app = dash.Dash()
+server = app.server
 
 
 def get_stock_data(tickr):
