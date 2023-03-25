@@ -7,6 +7,7 @@ import pandas as pd
 import plotly.express as px
 import yfinance as yf
 import datetime as dt
+import plotly.graph_objs as go
 
 app = dash.Dash()
 server = app.server
@@ -16,25 +17,27 @@ def get_stock_data(tickr):
     # stock = yf.Ticker(tickr).fast_info
     # print(stock)
     end = dt.datetime.now()
-    start = end - dt.timedelta(days=365)
-    stock_df = yf.download(tickr, start=start, end=end)
+    start = end - dt.timedelta(days=7)
+    stock_df = yf.download(tickr, start=start, end=end, interval='1m')
     return stock_df
 
 
 tickr_list = ['AAPL', 'GOOG', 'MSFT', 'AMZN',
-              'FB', 'INTC', 'CSCO', 'VZ', 'PFE', 'TSM']
+              'META', 'INTC', 'CSCO', 'VZ', 'PFE', 'TSM']
 
 
 df_list = [get_stock_data(tickr) for tickr in tickr_list]
 
 colors = {
     'background': '#111111',
-    'text': '#7FDBFF'
+    'text': '#7FDBFF',
+    'plot_colors': ['#FF5733', '#C70039', '#900C3F', '#581845', '#F39C12', '#D35400', '#2ECC71', '#1ABC9C', '#3498DB', '#9B59B6']
 }
+
 
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
-        children='Stock Visualization',
+        children="Iddy's Top Stock Tracker",
         style={
             'textAlign': 'center',
             'color': colors['text']
@@ -42,7 +45,8 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     ),
     html.Div(
         children='''
-        A grid of 10 stock values.
+        A grid of Top Performing stocks
+        Created by Idriss Animashaun
         ''',
         style={
             'textAlign': 'center',
@@ -55,19 +59,29 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
                 id='stock-{}'.format(tickr),
                 figure={
                     'data': [
-                        {'x': df['Close'].index, 'y': df['Close'].values,
-                            'type': 'line', 'name': tickr}
-                        for df, tickr in zip(df_list, tickr_list)
+                        go.Candlestick(
+                            x=df.index,
+                            open=df['Open'],
+                            high=df['High'],
+                            low=df['Low'],
+                            close=df['Close'],
+                            increasing={'line': {'color': 'green'}},
+                            decreasing={'line': {'color': 'red'}}
+                        )
                     ],
                     'layout': {
                         'plot_bgcolor': colors['background'],
                         'paper_bgcolor': colors['background'],
                         'font': {
                             'color': colors['text']
-                        }
+                        },
+                        'title': tickr,
+                        'xaxis': {'title': 'Date'},
+                        'yaxis': {'title': 'Price ($)'}
                     }
                 }
-            ) for df, tickr in zip(df_list, tickr_list)
+            )
+            for df, tickr, color in zip(df_list, tickr_list, colors['plot_colors'])
         ],
         style={'columnCount': 2}
     )
