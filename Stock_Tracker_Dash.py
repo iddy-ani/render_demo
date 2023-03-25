@@ -8,6 +8,9 @@ import plotly.express as px
 import yfinance as yf
 import datetime as dt
 import plotly.graph_objs as go
+import datetime as dt
+from dash.dependencies import Output, Input
+import time
 
 app = dash.Dash()
 server = app.server
@@ -44,48 +47,98 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         }
     ),
     html.Div(
-        children='''
+        children=['''
         A grid of Top Performing stocks
+        ''',
+                  html.Br(),
+                  html.Br(),
+                  '''
         Created by Idriss Animashaun
         ''',
+                  html.Br(),
+                  html.Br(),
+                  '''
+        Chart Updates Every 10m
+        '''],
         style={
             'textAlign': 'center',
             'color': colors['text']
         }
     ),
-    html.Div(
-        [
-            dcc.Graph(
-                id='stock-{}'.format(tickr),
-                figure={
-                    'data': [
-                        go.Candlestick(
-                            x=df.index,
-                            open=df['Open'],
-                            high=df['High'],
-                            low=df['Low'],
-                            close=df['Close'],
-                            increasing={'line': {'color': 'green'}},
-                            decreasing={'line': {'color': 'red'}}
-                        )
-                    ],
-                    'layout': {
-                        'plot_bgcolor': colors['background'],
-                        'paper_bgcolor': colors['background'],
-                        'font': {
-                            'color': colors['text']
-                        },
-                        'title': tickr,
-                        'xaxis': {'title': 'Date'},
-                        'yaxis': {'title': 'Price ($)'}
+    html.Div(id='plots', children=[
+        html.Div(
+            [
+                dcc.Graph(
+                    id='stock-{}'.format(tickr),
+                    figure={
+                        'data': [
+                            go.Candlestick(
+                                x=df.index,
+                                open=df['Open'],
+                                high=df['High'],
+                                low=df['Low'],
+                                close=df['Close'],
+                                increasing={'line': {'color': 'green'}},
+                                decreasing={'line': {'color': 'red'}}
+                            )
+                        ],
+                        'layout': {
+                            'plot_bgcolor': colors['background'],
+                            'paper_bgcolor': colors['background'],
+                            'font': {
+                                'color': colors['text']
+                            },
+                            'title': tickr,
+                            'xaxis': {'title': 'Date'},
+                            'yaxis': {'title': 'Price ($)'}
+                        }
                     }
+                )
+                for df, tickr, color in zip(df_list, tickr_list, colors['plot_colors'])
+            ],
+            style={'columnCount': 2}
+        )
+    ]),
+    dcc.Interval(
+        id='interval-component',
+        interval=10*60*1000,  # in milliseconds
+        n_intervals=0
+    )])
+
+
+@app.callback(Output('plots', 'children'), [Input('interval-component', 'n_intervals')])
+def update_plots(n):
+    global df_list
+    df_list = [get_stock_data(tickr) for tickr in tickr_list]
+    return [
+        dcc.Graph(
+            id='stock-{}'.format(tickr),
+            figure={
+                'data': [
+                    go.Candlestick(
+                        x=df.index,
+                        open=df['Open'],
+                        high=df['High'],
+                        low=df['Low'],
+                        close=df['Close'],
+                        name=tickr
+                    )
+                ],
+                'layout': {
+                    'plot_bgcolor': colors['background'],
+                    'paper_bgcolor': colors['background'],
+                    'font': {
+                        'color': colors['text']
+                    },
+                    'title': tickr,
+                    'xaxis': {'title': 'Date'},
+                    'yaxis': {'title': 'Price ($)'}
                 }
-            )
-            for df, tickr, color in zip(df_list, tickr_list, colors['plot_colors'])
-        ],
-        style={'columnCount': 2}
-    )
-])
+            }
+        )
+        for df, tickr, color in zip(df_list, tickr_list, colors['plot_colors'])
+    ]
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
