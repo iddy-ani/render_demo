@@ -1,6 +1,4 @@
-# Yes, here is an example of how to create a Dash web page with a grid of stock values using Plotly.
-
-import dash
+from app import app
 from dash import dcc
 from dash import html
 import pandas as pd
@@ -11,9 +9,6 @@ import plotly.graph_objs as go
 import datetime as dt
 from dash.dependencies import Output, Input
 import time
-
-app = dash.Dash()
-server = app.server
 
 
 def get_stock_data(tickr):
@@ -38,7 +33,7 @@ colors = {
 }
 
 
-app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
+stocks_layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
         children="Iddy's Top Stock Tracker",
         style={
@@ -138,9 +133,3 @@ def update_plots(n):
         )
         for df, tickr, color in zip(df_list, tickr_list, colors['plot_colors'])
     ]
-
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
-
-# # This code will create a Dash web page that has a grid of 10 line plots, with one plot for each stock value in the tickr_list. You can adjust the number of columns in the grid by changing the columnCount property in the style dictionary. The get_stock_data function downloads the historical stock data using yfinance, and the Plotly Express library is used to create the line plots.
