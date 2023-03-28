@@ -28,16 +28,17 @@ CONTENT_STYLE = {
 
 sidebar = html.Div(
     [
-        html.H2("Sidebar", className="display-4"),
+        html.H2("Iddy's Playground", className="display-6"),
         html.Hr(),
         html.P(
-            "Number of students per education level", className="lead"
+            "Explore The Pages Below", className="lead"
         ),
         dbc.Nav(
             [
                 dbc.NavLink("Home", href="/", active="exact"),
-                dbc.NavLink("Page 1", href="/page-1", active="exact"),
-                dbc.NavLink("Page 2", href="/page-2", active="exact"),
+                dbc.NavLink("Stock Tracker",
+                            href="/stocktracker", active="exact"),
+                dbc.NavLink("Dona's Diagnosis", href="/dona", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -52,8 +53,9 @@ content = html.Div(id="page-content", children=[], style=CONTENT_STYLE)
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     sidebar,
-    content
-    # html.Div(id='page-content')
+    dcc.Loading(id="loading-1",
+                children=[content],
+                type="circle")
 ])
 
 # Define the layout for the main app

@@ -3,9 +3,11 @@ from dash import dcc
 from dash import html
 import openai
 from dash.dependencies import Input, Output, State
+import os
 
+api_key = os.environ.get(r'OPENAI_API_KEY')
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = api_key
 
 # Define the layout for the Dona's Diagnosis page
 dona_layout = html.Div([
@@ -22,14 +24,10 @@ dona_layout = html.Div([
               [State('question-input', 'value')])
 def generate_answer(n_clicks, question):
     if not question:
-        return html.P("Please ask a question.")
-    response = openai.Completion.create(
-        engine="davinci",
-        prompt=f"Patient: {question}\nDona:",
-        max_tokens=100,
-        n=1,
-        stop=None,
-        temperature=0.7,
+        return html.P("What has you here today?")
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": question}]
     )
-    answer = response.choices[0].text.strip()
+    answer = response['choices'][0]['message']['content']
     return html.P(answer)

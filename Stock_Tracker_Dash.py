@@ -35,7 +35,7 @@ colors = {
 
 stocks_layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
-        children="Iddy's Top Stock Tracker",
+        children="A grid of Top Performing stocks",
         style={
             'textAlign': 'center',
             'color': colors['text']
@@ -43,16 +43,6 @@ stocks_layout = html.Div(style={'backgroundColor': colors['background']}, childr
     ),
     html.Div(
         children=['''
-        A grid of Top Performing stocks
-        ''',
-                  html.Br(),
-                  html.Br(),
-                  '''
-        Created by Idriss Animashaun
-        ''',
-                  html.Br(),
-                  html.Br(),
-                  '''
         Chart Updates Every 10m
         '''],
         style={
