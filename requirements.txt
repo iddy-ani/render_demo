@@ -69,4 +69,5 @@ wcwidth==0.2.6
 webencodings==0.5.1
 Werkzeug==2.2.3
 yfinance==0.2.13
+dash-bootstrap-components==1.4.1
 gunicorn
