@@ -2,7 +2,7 @@ from app import app
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
-from stock_tracker_dash import stocks_layout
+from Stock_Tracker_Dash import stocks_layout
 import dash_bootstrap_components as dbc
 
 # Import the layout and callback functions for Dona's Diagnosis
