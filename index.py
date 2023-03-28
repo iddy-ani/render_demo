@@ -8,6 +8,8 @@ import dash_bootstrap_components as dbc
 # Import the layout and callback functions for Dona's Diagnosis
 from dona_diagnosis import dona_layout
 
+server = app.server
+
 # styling the sidebar
 SIDEBAR_STYLE = {
     "position": "fixed",
