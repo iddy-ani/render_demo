@@ -2,13 +2,8 @@ from app import app
 from dash import dcc
 from dash import html
 import pandas as pd
-import plotly.express as px
-import yfinance as yf
-import datetime as dt
 import plotly.graph_objs as go
-import datetime as dt
 from dash.dependencies import Output, Input
-import time
 import requests
 import io
 
