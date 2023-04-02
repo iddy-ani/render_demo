@@ -38,7 +38,7 @@ sidebar = html.Div(
         dbc.Nav(
             [
                 dbc.NavLink("Home", href="/", active="exact"),
-                dbc.NavLink("Stock Tracker",
+                dbc.NavLink("AlphaBot",
                             href="/stocktracker", active="exact"),
                 dbc.NavLink("Dona's Diagnosis", href="/dona", active="exact"),
             ],
@@ -71,7 +71,7 @@ home_layout = dbc.Container([
                         dbc.NavItem(dbc.NavLink(
                             "Dona's Diagnosis", href="/dona")),
                         dbc.NavItem(dbc.NavLink(
-                            "Stock Tracker", href="/stocktracker")),
+                            "AlphaBot", href="/stocktracker")),
                     ],
                     className="ml-auto",
                     navbar=True
