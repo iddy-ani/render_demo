@@ -10,7 +10,7 @@ with open('questions.json') as f:
     quiz = json.load(f)
 
 game_layout = html.Div([
-    html.H2("Quiz Game"),
+    html.H2("Ava's Puzzle Pursuit"),
     dcc.Store(id='store', storage_type='memory'),  # for keeping the score and current question
     dcc.Dropdown(
     id='genre',
