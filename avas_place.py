@@ -4,6 +4,7 @@ from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output, State
 import json
+import random
 
 
 with open('questions.json') as f:
@@ -69,7 +70,8 @@ def update_output(n_submit, n_next, genre, restart_clicks, value, data):
             'current_question': 0,
             'correct_answers': [],
             'attempted_questions': [],
-            'selected_genre': None
+            'selected_genre': None,
+            'question_order': []
         }
 
     if not genre:
@@ -90,7 +92,8 @@ def update_output(n_submit, n_next, genre, restart_clicks, value, data):
             'current_question': 0,
             'correct_answers': [],
             'attempted_questions': [],
-            'selected_genre': genre
+            'selected_genre': genre,
+            'question_order': []
         }
         return (
             data,
@@ -106,13 +109,16 @@ def update_output(n_submit, n_next, genre, restart_clicks, value, data):
     if genre and genre != data['selected_genre']:
         data['selected_genre'] = genre
         data['current_question'] = 0
+        data['question_order'] = random.sample(range(len(quiz[genre])), len(quiz[genre]))
 
-    question = quiz[data['selected_genre']][data['current_question']]
+    question_index = data['question_order'][data['current_question']]
+    question = quiz[genre][question_index]
 
     if callback_context.triggered[0]['prop_id'].split('.')[0] == 'next-question':
         data['current_question'] += 1
-        if data['current_question'] < len(quiz[data['selected_genre']]):
-            question = quiz[data['selected_genre']][data['current_question']]
+        if data['current_question'] < len(quiz[genre]):
+            question_index = data['question_order'][data['current_question']]
+            question = quiz[genre][question_index]
         else:
             return (
                 data,
@@ -130,14 +136,14 @@ def update_output(n_submit, n_next, genre, restart_clicks, value, data):
             None,
             'Select an option and submit.',
             f'Score: {data["score"]}',
-            True
+            False
         )
     elif callback_context.triggered[0]['prop_id'].split('.')[0] == 'submit-val':
-        if data['current_question'] not in data['attempted_questions']:
-            data['attempted_questions'].append(data['current_question'])
+        if question_index not in data['attempted_questions']:
+            data['attempted_questions'].append(question_index)
             if question['answer'] == value:
                 data['score'] += 1
-                data['correct_answers'].append(data['current_question'])
+                data['correct_answers'].append(question_index)
                 return (
                     data,
                     f'Question: {question["question"]}',
