@@ -12,32 +12,101 @@ with open('questions.json') as f:
 
 game_layout = html.Div(
     [
-        html.H2("Ava's Puzzle Pursuit"),
+        html.H2("Ava's Puzzle Pursuit", style={'color': 'black', 'text-align': 'center'}),
         dcc.Store(id='store', storage_type='memory'),  # for keeping the score and current question
         dcc.Dropdown(
             id='genre',
             options=[{'label': i, 'value': i} for i in quiz.keys()],
             placeholder="Select a genre",
-            disabled=False
+            disabled=False,
+            style={'width': '200px', 'margin-bottom': '20px', 'color': 'black'}
         ),
-        html.P("Try to answer the question:"),
-        html.P(id='question'),
-        dcc.RadioItems(id='options'),
-        html.Button('Submit', id='submit-val', n_clicks=0),
-        html.Div(id='container-button-basic', children='Select an option and submit.'),
-        html.Button('Next question', id='next-question', n_clicks=0),
-        html.H3(id='score'),
-        html.Button('Start New Game', id='new-game', n_clicks=0, style={'display': 'none'}),
-        html.Button('Restart', id='restart', n_clicks=0)
+        html.P("Try to answer the question:", style={'color': 'black', 'font-size': '20px'}),
+        html.P(id='question', style={'color': 'black', 'font-size': '24px', 'font-weight': 'bold'}),
+        dcc.RadioItems(
+            id='options',
+            style={'display': 'flex', 'flex-direction': 'column', 'gap': '10px'}
+        ),
+        html.Button(
+            'Submit',
+            id='submit-val',
+            n_clicks=0,
+            style={
+                'margin-top': '20px',
+                'background-color': '#9370DB',
+                'color': 'white',
+                'padding': '10px 20px',
+                'border': 'none',
+                'border-radius': '5px',
+                'cursor': 'pointer',
+                'font-size': '16px'
+            }
+        ),
+        html.Div(
+            id='container-button-basic',
+            children='Select an option and submit.',
+            style={'color': 'black', 'font-size': '16px'}
+        ),
+        html.Button(
+            'Next question',
+            id='next-question',
+            n_clicks=0,
+            style={
+                'margin-top': '20px',
+                'background-color': '#9370DB',
+                'color': 'white',
+                'padding': '10px 20px',
+                'border': 'none',
+                'border-radius': '5px',
+                'cursor': 'pointer',
+                'font-size': '16px'
+            }
+        ),
+        html.H3(
+            id='score',
+            style={'color': 'black', 'font-size': '28px', 'font-weight': 'bold', 'margin-top': '20px'}
+        ),
+        html.Button(
+            'Start New Game',
+            id='new-game',
+            n_clicks=0,
+            style={
+                'display': 'none',
+                'background-color': '#9370DB',
+                'color': 'white',
+                'padding': '10px 20px',
+                'border': 'none',
+                'border-radius': '5px',
+                'cursor': 'pointer',
+                'font-size': '16px'
+            }
+        ),
+        html.Button(
+            'Restart',
+            id='restart',
+            n_clicks=0,
+            style={
+                'margin-top': '20px',
+                'background-color': '#9370DB',
+                'color': 'white',
+                'padding': '10px 20px',
+                'border': 'none',
+                'border-radius': '5px',
+                'cursor': 'pointer',
+                'font-size': '16px'
+            }
+        )
     ],
     style={
+        'background-image': "url('/static/images/background_img.jpeg')",
         'background-size': 'cover',
         'background-position': 'center',
         'height': '90vh',
         'padding': '20px',
-        "background-color": "#9370DB"
+        'color': 'black'
     }
 )
+
 
 
 @app.callback(

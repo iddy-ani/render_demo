@@ -413,6 +413,246 @@
                 "question": "Which Fortnite season introduced the concept of mythic weapons?",
                 "options": ["Season 6", "Season 7", "Season 8", "Season 9"],
                 "answer": "Season 9"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of building?",
+                "options": ["Season 1", "Season 2", "Season 3", "Season 4"],
+                "answer": "Season 2"
+            },
+            {
+                "question": "What is the name of the main playable character in Fortnite?",
+                "options": ["Jonesy", "Ramirez", "Sarah", "Harper"],
+                "answer": "Jonesy"
+            },
+            {
+                "question": "Which Fortnite season introduced the Battle Pass?",
+                "options": ["Season 1", "Season 2", "Season 3", "Season 4"],
+                "answer": "Season 2"
+            },
+            {
+                "question": "What is the name of the popular weapon that shoots rockets in Fortnite?",
+                "options": ["Rocket Launcher", "Grenade Launcher", "Bazooka", "RPG"],
+                "answer": "Rocket Launcher"
+            },
+            {
+                "question": "Which location in Fortnite is a large desert biome?",
+                "options": ["Paradise Palms", "Salty Springs", "Lazy Links", "Loot Lake"],
+                "answer": "Paradise Palms"
+            },
+            {
+                "question": "What is the name of the game mode in Fortnite where players compete to be the last one standing?",
+                "options": ["Battle Royale", "Save the World", "Creative", "Team Rumble"],
+                "answer": "Battle Royale"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of vehicles?",
+                "options": ["Season 3", "Season 4", "Season 5", "Season 6"],
+                "answer": "Season 3"
+            },
+            {
+                "question": "What is the name of the location in Fortnite where players can access vending machines to trade materials for weapons?",
+                "options": ["Vending Valley", "Trade Town", "Item Exchange", "Vending Machine City"],
+                "answer": "Vending Machine City"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of Creative mode?",
+                "options": ["Season 7", "Season 8", "Season 9", "Season 10"],
+                "answer": "Season 7"
+            },
+            {
+                "question": "What is the name of the rarest type of item in Fortnite?",
+                "options": ["Mythic", "Legendary", "Epic", "Rare"],
+                "answer": "Mythic"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of swimming and underwater gameplay?",
+                "options": ["Season 2", "Season 3", "Season 4", "Season 5"],
+                "answer": "Season 3"
+            },
+            {
+                "question": "What is the name of the popular dance emote that originated from the TV show 'Scrubs'?",
+                "options": ["Scrubs Dance", "Best Friends Dance", "Take the L", "Fresh Dance"],
+                "answer": "Take the L"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of fishing and fishing spots?",
+                "options": ["Season 7", "Season 8", "Season 9", "Season 10"],
+                "answer": "Season 9"
+            },
+            {
+                "question": "What is the name of the main antagonist in Fortnite's Save the World mode?",
+                "options": ["The Storm King", "The Cube", "The Ice King", "The Dark Voyager"],
+                "answer": "The Storm King"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of Chapter 2?",
+                "options": ["Season 10", "Season 11", "Season 12", "Season 13"],
+                "answer": "Season 11"
+            },
+            {
+                "question": "What is the name of the futuristic city location in Fortnite?",
+                "options": ["Neo Tilted", "Mega City", "Techno Town", "Futuristic Frenzy"],
+                "answer": "Neo Tilted"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Mandalorian and Baby Yoda as crossover characters?",
+                "options": ["Season 4", "Season 5", "Season 6", "Season 7"],
+                "answer": "Season 5"
+            },
+            {
+                "question": "What is the name of the high-tech vehicle in Fortnite that can transform into a ball for fast mobility?",
+                "options": ["Quadcrasher", "Driftboard", "Baller", "Grappler"],
+                "answer": "Baller"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of Mythic Goldfish, an extremely rare and powerful throwable item?",
+                "options": ["Season 8", "Season 9", "Season X", "Chapter 2 Season 1"],
+                "answer": "Chapter 2 Season 1"
+            },
+            {
+                "question": "What is the name of the location in Fortnite where players can access upgrade benches to enhance their weapons?",
+                "options": ["Upgrade Station", "Enhancement Depot", "Weapon Workshop", "Power-Up Center"],
+                "answer": "Upgrade Station"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of Bounty Hunters and NPCs that can be hired to aid players?",
+                "options": ["Season 5", "Season 6", "Season 7", "Season 8"],
+                "answer": "Season 5"
+            },
+            {
+                "question": "What is the name of the large snowy mountain in Fortnite?",
+                "options": ["Frosty Peaks", "Snowy Summit", "Mount Chill", "Polar Peak"],
+                "answer": "Polar Peak"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Primal and Mechanical weapon variants?",
+                "options": ["Season 5", "Season 6", "Season 7", "Season 8"],
+                "answer": "Season 6"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character swinging their arms and hips?",
+                "options": ["Hype", "Dance Moves", "Electro Shuffle", "Groove Jam"],
+                "answer": "Electro Shuffle"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Spire and the Guardians?",
+                "options": ["Season 6", "Season 7", "Season 8", "Season 9"],
+                "answer": "Season 6"
+            },
+            {
+                "question": "What is the name of the island in Fortnite where players spawn at the beginning of a match?",
+                "options": ["Battle Island", "Starting Point", "Spawn Island", "Battle Bus"],
+                "answer": "Spawn Island"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of Exotic Weapons, special weapons that can only be obtained by purchasing them from specific NPCs?",
+                "options": ["Chapter 2 Season 2", "Chapter 2 Season 3", "Chapter 2 Season 4", "Chapter 2 Season 5"],
+                "answer": "Chapter 2 Season 5"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character swinging their arms and legs in a random pattern?",
+                "options": ["Dab", "Wiggle", "Flapper", "Dance Therapy"],
+                "answer": "Flapper"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Zero Point and the Nexus War?",
+                "options": ["Chapter 2 Season 2", "Chapter 2 Season 3", "Chapter 2 Season 4", "Chapter 2 Season 5"],
+                "answer": "Chapter 2 Season 4"
+            },
+            {
+                "question": "What is the name of the large volcano location in Fortnite?",
+                "options": ["Volcanic Valley", "Lava Lake", "Molten Mountain", "Pressure Plant"],
+                "answer": "Pressure Plant"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Seven and the Alien Invasion storyline?",
+                "options": ["Chapter 2 Season 3", "Chapter 2 Season 4", "Chapter 2 Season 5", "Chapter 2 Season 6"],
+                "answer": "Chapter 2 Season 6"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character doing a fast-paced dance routine?",
+                "options": ["Renegade", "Slick", "Fast Feet", "Pump It Up"],
+                "answer": "Renegade"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Sideways and the Shadow Stones?",
+                "options": ["Chapter 2 Season 5", "Chapter 2 Season 6", "Chapter 2 Season 7", "Chapter 2 Season 8"],
+                "answer": "Chapter 2 Season 7"
+            },
+            {
+                "question": "What is the name of the location in Fortnite where players can find a large spaceship and encounter alien creatures?",
+                "options": ["Extraterrestrial Encampment", "Cosmic Compound", "UFO Landing Zone", "Holly Hedges"],
+                "answer": "Cosmic Compound"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Foundation and the Primal Hunters storyline?",
+                "options": ["Chapter 2 Season 6", "Chapter 2 Season 7", "Chapter 2 Season 8", "Chapter 2 Season 9"],
+                "answer": "Chapter 2 Season 7"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character doing a funny and exaggerated dance routine?",
+                "options": ["Best Mates", "Breakin'", "Make It Rain", "Pop Lock"],
+                "answer": "Best Mates"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Cube Monsters and the Cube Event?",
+                "options": ["Season 5", "Season 6", "Season 7", "Season 8"],
+                "answer": "Season 6"
+            },
+            {
+                "question": "What is the name of the location in Fortnite where players can find a floating island that moves around the map?",
+                "options": ["Skyland", "Floating Fortress", "Airborne Atoll", "Levitating Island"],
+                "answer": "Levitating Island"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of The Foundation and the Seven?",
+                "options": ["Chapter 2 Season 6", "Chapter 2 Season 7", "Chapter 2 Season 8", "Chapter 2 Season 9"],
+                "answer": "Chapter 2 Season 6"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character pretending to ride an invisible horse?",
+                "options": ["Ride the Pony", "Giddy-Up", "The Worm", "Rambunctious"],
+                "answer": "Giddy-Up"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Mothership and the Alien Invasion storyline?",
+                "options": ["Chapter 2 Season 7", "Chapter 2 Season 8", "Chapter 2 Season 9", "Chapter 2 Season 10"],
+                "answer": "Chapter 2 Season 7"
+            },
+            {
+                "question": "What is the name of the location in Fortnite where players can find a futuristic city with hovercars and advanced technology?",
+                "options": ["Techno Town", "Sky City", "Futuristic Frenzy", "Neo Tilted"],
+                "answer": "Neo Tilted"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Foundation and the Spire Guardians storyline?",
+                "options": ["Chapter 2 Season 6", "Chapter 2 Season 7", "Chapter 2 Season 8", "Chapter 2 Season 9"],
+                "answer": "Chapter 2 Season 6"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character doing a smooth and rhythmic dance routine?",
+                "options": ["Smooth Moves", "Flow", "Jubilation", "True Heart"],
+                "answer": "Smooth Moves"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Sideways and the Cube Invasion storyline?",
+                "options": ["Chapter 2 Season 5", "Chapter 2 Season 6", "Chapter 2 Season 7", "Chapter 2 Season 8"],
+                "answer": "Chapter 2 Season 8"
+            },
+            {
+                "question": "What is the name of the location in Fortnite where players can find a large amusement park with rides and attractions?",
+                "options": ["Funland", "Pleasant Park", "Carnival Kingdom", "Weird World"],
+                "answer": "Carnival Kingdom"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of the Foundation and the Cube War storyline?",
+                "options": ["Chapter 2 Season 6", "Chapter 2 Season 7", "Chapter 2 Season 8", "Chapter 2 Season 9"],
+                "answer": "Chapter 2 Season 8"
+            },
+            {
+                "question": "What is the name of the popular dance emote that features a character doing a silly and playful dance routine?",
+                "options": ["Groove Jam", "Pop Lock", "Boneless", "Rambunctious"],
+                "answer": "Groove Jam"
             }
         ],
         "Billie Eilish": [
@@ -465,6 +705,211 @@
                 "question": "Which country is Billie Eilish from?",
                 "options": ["United States", "United Kingdom", "Canada", "Australia"],
                 "answer": "United States"
+            },
+            {
+                "question": "Which Billie Eilish song features the lyrics 'I'm that bad type, make your mama sad type'?",
+                "options": ["Bad Guy", "When the Party's Over", "Bury a Friend", "Everything I Wanted"],
+                "answer": "Bad Guy"
+            },
+            {
+                "question": "What was the first song Billie Eilish recorded and released on SoundCloud?",
+                "options": ["Ocean Eyes", "Bellyache", "Lovely", "Six Feet Under"],
+                "answer": "Ocean Eyes"
+            },
+            {
+                "question": "Which artist did Billie Eilish collaborate with on the song 'My Future'?",
+                "options": ["Finneas", "Khalid", "Phoebe Bridgers", "James Blake"],
+                "answer": "Finneas"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'I can't seem to focus, and you don't seem to notice'?",
+                "options": ["Ilomilo", "Xanny", "Everything I Wanted", "Listen Before I Go"],
+                "answer": "Ilomilo"
+            },
+            {
+                "question": "What is the name of Billie Eilish's debut EP released in 2017?",
+                "options": ["Don't Smile at Me", "When We All Fall Asleep, Where Do We Go?", "Happier Than Ever", "Lovely"],
+                "answer": "Don't Smile at Me"
+            },
+            {
+                "question": "Which Billie Eilish song features the lyrics 'Please don't try to kiss me on the sidewalk'?",
+                "options": ["Hostage", "My Strange Addiction", "Bellyache", "Watch"],
+                "answer": "Hostage"
+            },
+            {
+                "question": "What is the title of Billie Eilish's documentary film released in 2021?",
+                "options": ["The World's a Little Blurry", "Billie Eilish: The Story Behind", "Inside Billie's World", "Eilish: A Music Journey"],
+                "answer": "The World's a Little Blurry"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'Call me friend but keep me closer'?",
+                "options": ["Copycat", "When I Was Older", "Xanny", "Everything I Wanted"],
+                "answer": "Copycat"
+            },
+            {
+                "question": "In which year did Billie Eilish win all four major Grammy Awards (Record of the Year, Album of the Year, Song of the Year, and Best New Artist)?",
+                "options": ["2019", "2020", "2021", "2022"],
+                "answer": "2020"
+            },
+            {
+                "question": "What is the title of Billie Eilish's collaboration with Rosalía released in 2021?",
+                "options": ["Lo Vas a Olvidar", "Lost Cause", "My Future", "Therefore I Am"],
+                "answer": "Lo Vas a Olvidar"
+            },
+            {
+                "question": "Which song by Billie Eilish was used as the theme song for the Netflix series '13 Reasons Why'?",
+                "options": ["Lovely", "Bored", "Six Feet Under", "Hostage"],
+                "answer": "Lovely"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'So you're a tough guy, like it really rough guy'?",
+                "options": ["Bury a Friend", "You Should See Me in a Crown", "When the Party's Over", "My Strange Addiction"],
+                "answer": "You Should See Me in a Crown"
+            },
+            {
+                "question": "What is the name of Billie Eilish's debut studio album?",
+                "options": ["When We All Fall Asleep, Where Do We Go?", "Happier Than Ever", "Don't Smile at Me", "Billie Eilish"],
+                "answer": "When We All Fall Asleep, Where Do We Go?"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'Quiet when I'm coming home and I'm on my own'?",
+                "options": ["Bellyache", "Listen Before I Go", "Everything I Wanted", "I Love You"],
+                "answer": "Everything I Wanted"
+            },
+            {
+                "question": "What is the title of Billie Eilish's collaboration with Khalid?",
+                "options": ["Lovely", "Bad Guy", "When the Party's Over", "No Time to Die"],
+                "answer": "Lovely"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'I'm in their secondhand smoke, still just drinking canned coke'?",
+                "options": ["Watch", "Bellyache", "Ilomilo", "My Strange Addiction"],
+                "answer": "My Strange Addiction"
+            },
+            {
+                "question": "What is the name of the song Billie Eilish released for the James Bond film 'No Time to Die'?",
+                "options": ["No Time to Die", "Bond Girl", "Dangerous Woman", "Spy in the Shadows"],
+                "answer": "No Time to Die"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'I'll sit and watch your car burn with the fire that you started in me'?",
+                "options": ["Watch", "Bellyache", "Listen Before I Go", "I Love You"],
+                "answer": "Watch"
+            },
+            {
+                "question": "What is the title of Billie Eilish's song released for the Apple TV+ film 'Billie Eilish: The World's a Little Blurry'?",
+                "options": ["Therefore I Am", "No Time to Die", "Everything I Wanted", "When the Party's Over"],
+                "answer": "Therefore I Am"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'Don't you know too much already? I'll only hurt you if you let me'?",
+                "options": ["Xanny", "My Strange Addiction", "Bury a Friend", "Listen Before I Go"],
+                "answer": "Bury a Friend"
+            },
+            {
+                "question": "Which Billie Eilish song features the lyrics 'You can't replace me, cannot unsee me'?",
+                "options": ["Ilomilo", "Xanny", "Bad Guy", "Everything I Wanted"],
+                "answer": "Ilomilo"
+            },
+            {
+                "question": "What is the title of Billie Eilish's collaboration with Justin Bieber?",
+                "options": ["Bad Guy", "Lovely", "No Time to Die", "I Don't Care"],
+                "answer": "Bad Guy"
+            },
+            {
+                "question": "Which song by Billie Eilish includes the lyrics 'I'm in the secondhand smoke, still just drinking canned Coke'?",
+                "options": ["Watch", "Bellyache", "Copycat", "Hostage"],
+                "answer": "Watch"
+            },
+            {
+                "question": "What is the name of Billie Eilish's brother who often collaborates with her?",
+                "options": ["Finneas", "Oliver", "Noah", "Ethan"],
+                "answer": "Finneas"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'You say you're sorry, but it's too late now'?",
+                "options": ["When the Party's Over", "Ocean Eyes", "Bury a Friend", "My Future"],
+                "answer": "When the Party's Over"
+            },
+            {
+                "question": "What is the title of Billie Eilish's song released for the Netflix series 'To All the Boys: P.S. I Still Love You'?",
+                "options": ["Everything I Wanted", "No Time to Die", "Lovely", "Six Feet Under"],
+                "answer": "Everything I Wanted"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'If teardrops could be bottled, there'd be swimming pools filled by models'?",
+                "options": ["Ocean Eyes", "Bellyache", "Lovely", "My Strange Addiction"],
+                "answer": "My Strange Addiction"
+            },
+            {
+                "question": "What is the title of Billie Eilish's song released for the Apple TV+ film 'Billie Eilish: The World's a Little Blurry'?",
+                "options": ["Everything I Wanted", "When the Party's Over", "Therefore I Am", "No Time to Die"],
+                "answer": "Therefore I Am"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'I'm the bad type, make your mama sad type'?",
+                "options": ["Bad Guy", "My Future", "You Should See Me in a Crown", "Lovely"],
+                "answer": "Bad Guy"
+            },
+            {
+                "question": "What is the title of Billie Eilish's song released for the HBO series 'Euphoria'?",
+                "options": ["Bury a Friend", "Hostage", "Lovely", "Wish You Were Gay"],
+                "answer": "Bury a Friend"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'Wake up, you need to make money'?",
+                "options": ["8", "Bellyache", "Copycat", "Idontwannabeyouanymore"],
+                "answer": "8"
+            },
+            {
+                "question": "What is the name of Billie Eilish's debut EP?",
+                "options": ["Don't Smile at Me", "When We All Fall Asleep, Where Do We Go?", "Happier Than Ever", "Billie Eilish"],
+                "answer": "Don't Smile at Me"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'You don't need to save me'?",
+                "options": ["No Time to Die", "Everything I Wanted", "My Future", "Lovely"],
+                "answer": "My Future"
+            },
+            {
+                "question": "What is the title of Billie Eilish's song released for the film 'The Turning'?",
+                "options": ["Therefore I Am", "When the Party's Over", "Bellyache", "No Time to Die"],
+                "answer": "No Time to Die"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'You better run from me'?",
+                "options": ["You Should See Me in a Crown", "Copycat", "Bad Guy", "When the Party's Over"],
+                "answer": "You Should See Me in a Crown"
+            },
+            {
+                "question": "What is the name of Billie Eilish's official fanbase?",
+                "options": ["Avocados", "Eilishers", "Billie's Army", "Bloomers"],
+                "answer": "Avocados"
+            },
+            {
+                "question": "Which song by Billie Eilish includes the lyrics 'So you're a tough guy, like it really rough guy'?",
+                "options": ["Bury a Friend", "You Should See Me in a Crown", "When the Party's Over", "My Strange Addiction"],
+                "answer": "You Should See Me in a Crown"
+            },
+            {
+                "question": "What is the name of Billie Eilish's debut studio album?",
+                "options": ["When We All Fall Asleep, Where Do We Go?", "Happier Than Ever", "Don't Smile at Me", "Billie Eilish"],
+                "answer": "When We All Fall Asleep, Where Do We Go?"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'Quiet when I'm coming home and I'm on my own'?",
+                "options": ["Bellyache", "Listen Before I Go", "Everything I Wanted", "I Love You"],
+                "answer": "Everything I Wanted"
+            },
+            {
+                "question": "What is the title of Billie Eilish's collaboration with Khalid?",
+                "options": ["Lovely", "Bad Guy", "When the Party's Over", "No Time to Die"],
+                "answer": "Lovely"
+            },
+            {
+                "question": "Which Billie Eilish song includes the lyrics 'I'm in their secondhand smoke, still just drinking canned coke'?",
+                "options": ["Watch", "Bellyache", "Ilomilo", "My Strange Addiction"],
+                "answer": "My Strange Addiction"
             }
         ],
         "Marvel": [
