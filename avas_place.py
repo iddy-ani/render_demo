@@ -3,86 +3,11 @@ from app import app
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output, State
-import random
+import json
 
-# List of questions and answers
-quiz = [{'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        ]
 
-quiz = {
-    'Geography': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-    ],
-    'History': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add history questions
-    ],
-    'Math': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add math questions
-    ],
-    'Physics': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add physics questions
-    ],
-    'Anatomy': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add anatomy questions
-    ],
-    'Computer Games': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add computer games questions
-    ],
-    'FRIENDS TV series': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add FRIENDS TV series questions
-    ],
-    'FORTNITE game': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add FORTNITE game questions
-    ],
-    'Billie Eilish': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add Billie Eilish questions
-    ],
-    'Marvel': [
-        {'question': 'What is the capital of Australia?', 'options': ['Sydney', 'Melbourne', 'Canberra', 'Brisbane'], 'answer': 'Canberra'},
-        {'question': 'What is the capital of France?', 'options': ['Paris', 'Lyon', 'Marseille', 'Nice'], 'answer': 'Paris'},
-        {'question': 'What is the capital of USA?', 'options': ['New York', 'Washington D.C.', 'Los Angeles', 'Chicago'], 'answer': 'Washington D.C.'},
-        # Add more questions as needed
-        # Add Marvel questions
-    ],
-}
+with open('questions.json') as f:
+    quiz = json.load(f)
 
 game_layout = html.Div([
     html.H2("Quiz Game"),
@@ -100,7 +25,8 @@ game_layout = html.Div([
     html.Button('Submit', id='submit-val', n_clicks=0),
     html.Div(id='container-button-basic', children='Select an option and submit.'),
     html.Button('Next question', id='next-question', n_clicks=0),
-    html.H3(id='score')
+    html.H3(id='score'),
+    html.Button('Start New Game', id='new-game', n_clicks=0, style={'display': 'none'})
 ])
 
 @app.callback(

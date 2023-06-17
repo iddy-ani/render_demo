@@ -1,0 +1,522 @@
+{
+        "Geography": [
+            {
+                "question": "What is the capital of France?",
+                "options": ["Paris", "London", "Rome", "Berlin"],
+                "answer": "Paris"
+            },
+            {
+                "question": "Mount Everest is located in which country?",
+                "options": ["India", "Bhutan", "Nepal", "China"],
+                "answer": "Nepal"
+            },
+            {
+                "question": "Which river is the longest in the world?",
+                "options": ["Amazon River", "Yangtze River", "Mississippi River", "Nile River"],
+                "answer": "Nile River"
+            },
+            {
+                "question": "Which of the following countries is the smallest by area?",
+                "options": ["Vatican City", "Monaco", "Luxembourg", "Andorra"],
+                "answer": "Vatican City"
+            },
+            {
+                "question": "What is the largest desert in the world?",
+                "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Desert"],
+                "answer": "Antarctic Desert"
+            },
+            {
+                "question": "Which is the smallest continent by land area?",
+                "options": ["Europe", "Australia", "Antarctica", "South America"],
+                "answer": "Australia"
+            },
+            {
+                "question": "Which country has the most number of islands?",
+                "options": ["Finland", "Norway", "Canada", "Sweden"],
+                "answer": "Sweden"
+            },
+            {
+                "question": "What is the capital of Australia?",
+                "options": ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+                "answer": "Canberra"
+            },
+            {
+                "question": "In which country is the world's highest waterfall, Angel Falls, located?",
+                "options": ["USA", "Brazil", "Venezuela", "Argentina"],
+                "answer": "Venezuela"
+            },
+            {
+                "question": "Which is the largest ocean on Earth?",
+                "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+                "answer": "Pacific Ocean"
+            }
+        ],
+        "History": [
+            {
+                "question": "Who wrote the document known as the 95 Theses?",
+                "options": ["Martin Luther", "John Calvin", "Henry VIII", "Pope Leo X"],
+                "answer": "Martin Luther"
+            },
+            {
+                "question": "In what year did World War I begin?",
+                "options": ["1905", "1914", "1918", "1921"],
+                "answer": "1914"
+            },
+            {
+                "question": "Who was the first president of the United States?",
+                "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+                "answer": "George Washington"
+            },
+            {
+                "question": "What city was the first capital of the Kingdom of Italy after its unification?",
+                "options": ["Venice", "Rome", "Turin", "Florence"],
+                "answer": "Turin"
+            },
+            {
+                "question": "Which famous leader was assassinated on the Ides of March?",
+                "options": ["Cleopatra", "Julius Caesar", "Augustus Caesar", "Spartacus"],
+                "answer": "Julius Caesar"
+            },
+            {
+                "question": "Which document, signed in 1215, was England's first constitution?",
+                "options": ["The English Bill of Rights", "The Magna Carta", "The Petition of Right", "The Habeas Corpus Act"],
+                "answer": "The Magna Carta"
+            },
+            {
+                "question": "Who was the longest reigning British monarch as of 2021?",
+                "options": ["Queen Elizabeth I", "Queen Elizabeth II", "Queen Victoria", "King George III"],
+                "answer": "Queen Elizabeth II"
+            },
+            {
+                "question": "In which city was the Titanic built?",
+                "options": ["London", "Belfast", "Glasgow", "Liverpool"],
+                "answer": "Belfast"
+            },
+            {
+                "question": "Which civilization built the Machu Picchu complex in Peru?",
+                "options": ["Maya", "Aztec", "Inca", "Olmec"],
+                "answer": "Inca"
+            },
+            {
+                "question": "Which historical event took place in the Bay of Pigs?",
+                "options": ["Spanish-American War", "Cuban Missile Crisis", "Bay of Pigs Invasion", "Suez Crisis"],
+                "answer": "Bay of Pigs Invasion"
+            }
+        ],
+        "Math": [
+            {
+                "question": "What is the square root of 144?",
+                "options": ["12", "14", "16", "18"],
+                "answer": "12"
+            },
+            {
+                "question": "What is the derivative of x^2?",
+                "options": ["x^2", "2x", "x", "2x^2"],
+                "answer": "2x"
+            },
+            {
+                "question": "How many sides does a decagon have?",
+                "options": ["8", "10", "12", "14"],
+                "answer": "10"
+            },
+            {
+                "question": "What is the value of Pi up to three decimal places?",
+                "options": ["3.141", "3.123", "3.111", "3.131"],
+                "answer": "3.141"
+            },
+            {
+                "question": "What is the sum of angles in a triangle (in degrees)?",
+                "options": ["90", "180", "270", "360"],
+                "answer": "180"
+            },
+            {
+                "question": "What is the binary equivalent of the decimal number 10?",
+                "options": ["110", "101", "1001", "1010"],
+                "answer": "1010"
+            },
+            {
+                "question": "What does the 'Pythagorean Theorem' state for a right triangle?",
+                "options": ["a^2 + b^2 = c^2", "a^2 - b^2 = c^2", "a^2 + b^2 > c^2", "a^2 + b^2 < c^2"],
+                "answer": "a^2 + b^2 = c^2"
+            },
+            {
+                "question": "How do you calculate the area of a circle?",
+                "options": ["pi*r^2", "2*pi*r", "pi*r", "2*pi*r^2"],
+                "answer": "pi*r^2"
+            },
+            {
+                "question": "What is the next number in the series: 2, 4, 8, 16, ...?",
+                "options": ["18", "20", "32", "30"],
+                "answer": "32"
+            },
+            {
+                "question": "What is 7^0?",
+                "options": ["0", "1", "7", "undefined"],
+                "answer": "1"
+            }
+        ],
+        "Physics": [
+            {
+                "question": "What is the SI unit of force?",
+                "options": ["Newton", "Watt", "Joule", "Pascal"],
+                "answer": "Newton"
+            },
+            {
+                "question": "Which of the following is an example of a vector quantity?",
+                "options": ["Mass", "Temperature", "Speed", "Displacement"],
+                "answer": "Displacement"
+            },
+            {
+                "question": "What is the formula for calculating velocity?",
+                "options": ["v = d/t", "v = F/m", "v = m*a", "v = P/t"],
+                "answer": "v = d/t"
+            },
+            {
+                "question": "What is the law of conservation of energy?",
+                "options": ["Energy can neither be created nor destroyed", "Energy can be created but not destroyed", "Energy can be destroyed but not created", "Energy is constant"],
+                "answer": "Energy can neither be created nor destroyed"
+            },
+            {
+                "question": "What is the formula for calculating work?",
+                "options": ["W = F*d", "W = m*g", "W = P/t", "W = V/I"],
+                "answer": "W = F*d"
+            },
+            {
+                "question": "Which of the following is an example of an insulator?",
+                "options": ["Copper", "Aluminum", "Wood", "Silver"],
+                "answer": "Wood"
+            },
+            {
+                "question": "What is the SI unit of electric current?",
+                "options": ["Volt", "Ampere", "Coulomb", "Ohm"],
+                "answer": "Ampere"
+            },
+            {
+                "question": "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
+                "options": ["Boyle's Law", "Charles's Law", "Gay-Lussac's Law", "Avogadro's Law"],
+                "answer": "Boyle's Law"
+            },
+            {
+                "question": "What is the formula for calculating power?",
+                "options": ["P = F*d", "P = m*a", "P = W/t", "P = V/I"],
+                "answer": "P = W/t"
+            },
+            {
+                "question": "What is the acceleration due to gravity on Earth?",
+                "options": ["9.8 m/s^2", "6.7 m/s^2", "4.9 m/s^2", "12.5 m/s^2"],
+                "answer": "9.8 m/s^2"
+            }
+        ],
+        "Anatomy": [
+            {
+                "question": "Which organ is responsible for pumping blood throughout the body?",
+                "options": ["Liver", "Lungs", "Heart", "Kidneys"],
+                "answer": "Heart"
+            },
+            {
+                "question": "What is the largest organ in the human body?",
+                "options": ["Liver", "Skin", "Lungs", "Brain"],
+                "answer": "Skin"
+            },
+            {
+                "question": "Which bone protects the brain?",
+                "options": ["Skull", "Spine", "Ribcage", "Femur"],
+                "answer": "Skull"
+            },
+            {
+                "question": "Which system is responsible for delivering oxygen to the body and removing carbon dioxide?",
+                "options": ["Nervous system", "Endocrine system", "Respiratory system", "Digestive system"],
+                "answer": "Respiratory system"
+            },
+            {
+                "question": "Which part of the eye is responsible for controlling the amount of light entering the eye?",
+                "options": ["Iris", "Cornea", "Retina", "Lens"],
+                "answer": "Iris"
+            },
+            {
+                "question": "Which muscle is responsible for breathing?",
+                "options": ["Biceps", "Quadriceps", "Diaphragm", "Pectoralis"],
+                "answer": "Diaphragm"
+            },
+            {
+                "question": "Which organ is responsible for filtering waste from the blood and producing urine?",
+                "options": ["Liver", "Pancreas", "Spleen", "Kidneys"],
+                "answer": "Kidneys"
+            },
+            {
+                "question": "What is the largest part of the human brain?",
+                "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+                "answer": "Cerebrum"
+            },
+            {
+                "question": "Which system is responsible for producing and transmitting electrical signals in the body?",
+                "options": ["Muscular system", "Circulatory system", "Nervous system", "Skeletal system"],
+                "answer": "Nervous system"
+            },
+            {
+                "question": "Which part of the digestive system is responsible for absorbing nutrients from food?",
+                "options": ["Stomach", "Large intestine", "Small intestine", "Esophagus"],
+                "answer": "Small intestine"
+            }
+        ],
+        "Computer Games": [
+            {
+                "question": "Which game features a world populated by blocks and allows players to build and explore?",
+                "options": ["Minecraft", "Fortnite", "League of Legends", "Call of Duty"],
+                "answer": "Minecraft"
+            },
+            {
+                "question": "Which game features a battle royale mode where 100 players fight to be the last one standing?",
+                "options": ["Fortnite", "Apex Legends", "PlayerUnknown's Battlegrounds", "Fall Guys"],
+                "answer": "Fortnite"
+            },
+            {
+                "question": "Which game is set in the fantasy world of Azeroth and allows players to create and control characters in a virtual world?",
+                "options": ["World of Warcraft", "The Elder Scrolls V: Skyrim", "Final Fantasy XIV", "Guild Wars 2"],
+                "answer": "World of Warcraft"
+            },
+            {
+                "question": "Which game series features an ongoing battle between terrorists and counter-terrorists?",
+                "options": ["Counter-Strike", "Rainbow Six Siege", "Call of Duty", "Battlefield"],
+                "answer": "Counter-Strike"
+            },
+            {
+                "question": "Which game features a group of colorful, jelly-like characters that compete in various challenges?",
+                "options": ["Fall Guys", "Among Us", "Overcooked", "Rocket League"],
+                "answer": "Fall Guys"
+            },
+            {
+                "question": "Which game series features a futuristic, first-person shooter gameplay with advanced weapons and vehicles?",
+                "options": ["Halo", "Destiny", "Titanfall", "Borderlands"],
+                "answer": "Halo"
+            },
+            {
+                "question": "Which game features a virtual world where players can design and interact with their own virtual avatars?",
+                "options": ["The Sims", "Second Life", "Animal Crossing", "Sims City"],
+                "answer": "Second Life"
+            },
+            {
+                "question": "Which game series is known for its open-world exploration, quests, and role-playing elements?",
+                "options": ["The Legend of Zelda", "Assassin's Creed", "GTA", "Final Fantasy"],
+                "answer": "The Legend of Zelda"
+            },
+            {
+                "question": "Which game series is based on the popular book and TV series, allowing players to embark on epic adventures in a fantasy realm?",
+                "options": ["The Witcher", "Game of Thrones", "Lord of the Rings", "Elder Scrolls"],
+                "answer": "The Witcher"
+            },
+            {
+                "question": "Which game features a futuristic sport where players control rocket-powered cars to score goals?",
+                "options": ["Rocket League", "FIFA", "NBA 2K", "NFL Madden"],
+                "answer": "Rocket League"
+            }
+        ],
+        "FRIENDS": [
+            {
+                "question": "What is the name of Ross and Monica's sister?",
+                "options": ["Phoebe", "Rachel", "Joey", "Emily"],
+                "answer": "Phoebe"
+            },
+            {
+                "question": "Which character famously said 'How you doin?'",
+                "options": ["Chandler", "Ross", "Joey", "Monica"],
+                "answer": "Joey"
+            },
+            {
+                "question": "What is the name of Chandler's annoying roommate before Joey?",
+                "options": ["Eddie", "Gunther", "Mike", "Richard"],
+                "answer": "Eddie"
+            },
+            {
+                "question": "What is the name of Ross and Monica's pet dog?",
+                "options": ["Chick", "Duck", "Moo", "Whiskers"],
+                "answer": "Chick"
+            },
+            {
+                "question": "What song is Phoebe best known for?",
+                "options": ["Smelly Cat", "I'll Be There for You", "Wonderwall", "My Generation"],
+                "answer": "Smelly Cat"
+            },
+            {
+                "question": "Which character had a third nipple?",
+                "options": ["Ross", "Joey", "Chandler", "Phoebe"],
+                "answer": "Chandler"
+            },
+            {
+                "question": "What is the name of Ross and Monica's parents?",
+                "options": ["Jack and Judy", "Frank and Alice", "Frank and Phoebe", "Richard and Emily"],
+                "answer": "Jack and Judy"
+            },
+            {
+                "question": "What is the name of Rachel's sister?",
+                "options": ["Phoebe", "Monica", "Amy", "Emily"],
+                "answer": "Amy"
+            },
+            {
+                "question": "Which character worked as a paleontologist?",
+                "options": ["Ross", "Chandler", "Joey", "Rachel"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Joey's stuffed penguin?",
+                "options": ["Hugsy", "Waddle", "Mr. Penguin", "Penny"],
+                "answer": "Hugsy"
+            }
+        ],
+        "FORTNITE": [
+            {
+                "question": "What is the name of the popular dance emote in Fortnite?",
+                "options": ["Floss", "Orange Justice", "The Robot", "Take the L"],
+                "answer": "Floss"
+            },
+            {
+                "question": "Which season introduced the map update that included Tilted Towers?",
+                "options": ["Season 1", "Season 2", "Season 3", "Season 4"],
+                "answer": "Season 3"
+            },
+            {
+                "question": "Which location in Fortnite is a giant wooden llama?",
+                "options": ["Pleasant Park", "Retail Row", "Lonely Lodge", "Junk Junction"],
+                "answer": "Junk Junction"
+            },
+            {
+                "question": "What is the name of the main currency used in Fortnite?",
+                "options": ["V-Bucks", "Battle Stars", "Gold Bars", "Experience Points"],
+                "answer": "V-Bucks"
+            },
+            {
+                "question": "Which weapon was temporarily removed from Fortnite due to balancing issues?",
+                "options": ["Rocket Launcher", "Shotgun", "Scoped Assault Rifle", "Infinity Blade"],
+                "answer": "Infinity Blade"
+            },
+            {
+                "question": "Which event in Fortnite temporarily caused the map to be covered in snow?",
+                "options": ["Butterfly Event", "Ice Storm Event", "Cube Event", "The End Event"],
+                "answer": "Ice Storm Event"
+            },
+            {
+                "question": "What is the name of the island in the middle of Loot Lake?",
+                "options": ["Dragon's Roost", "Turtle Island", "Viking Outpost", "Dusty Depot"],
+                "answer": "Turtle Island"
+            },
+            {
+                "question": "Which Fortnite game mode features teams of 20 players battling it out?",
+                "options": ["Solo", "Duo", "Squad", "Team Rumble"],
+                "answer": "Team Rumble"
+            },
+            {
+                "question": "What is the name of the large purple cube that appeared in Fortnite?",
+                "options": ["Midas", "Dark Voyager", "Thanos", "Kevin the Cube"],
+                "answer": "Kevin the Cube"
+            },
+            {
+                "question": "Which Fortnite season introduced the concept of mythic weapons?",
+                "options": ["Season 6", "Season 7", "Season 8", "Season 9"],
+                "answer": "Season 9"
+            }
+        ],
+        "Billie Eilish": [
+            {
+                "question": "What is Billie Eilish's full name?",
+                "options": ["Billie Marie Eilish", "Billie Eilish O'Connell", "Billie Rose Eilish", "Billie Elizabeth Baird"],
+                "answer": "Billie Eilish O'Connell"
+            },
+            {
+                "question": "Which of the following songs is NOT by Billie Eilish?",
+                "options": ["Bad Guy", "Ocean Eyes", "Lovely", "Royals"],
+                "answer": "Royals"
+            },
+            {
+                "question": "At what age did Billie Eilish release her debut single 'Ocean Eyes'?",
+                "options": ["14", "15", "16", "17"],
+                "answer": "14"
+            },
+            {
+                "question": "Which Billie Eilish song won Record of the Year at the 2020 Grammy Awards?",
+                "options": ["Bad Guy", "Everything I Wanted", "When the Party's Over", "No Time to Die"],
+                "answer": "Bad Guy"
+            },
+            {
+                "question": "In which year did Billie Eilish release her debut studio album 'When We All Fall Asleep, Where Do We Go?'?",
+                "options": ["2017", "2018", "2019", "2020"],
+                "answer": "2019"
+            },
+            {
+                "question": "Which artist collaborated with Billie Eilish on the song 'Lovely'?",
+                "options": ["Khalid", "Justin Bieber", "Phoebe Bridgers", "Finneas"],
+                "answer": "Khalid"
+            },
+            {
+                "question": "What is the title of Billie Eilish's James Bond theme song released in 2020?",
+                "options": ["No Time to Die", "Skyfall", "The Writing's on the Wall", "GoldenEye"],
+                "answer": "No Time to Die"
+            },
+            {
+                "question": "Which song by Billie Eilish includes the lyrics 'I'm the bad guy, duh'?",
+                "options": ["Bury a Friend", "When the Party's Over", "Bad Guy", "My Future"],
+                "answer": "Bad Guy"
+            },
+            {
+                "question": "Which Billie Eilish album features the songs 'Therefore I Am' and 'Your Power'?",
+                "options": ["Happier Than Ever", "When We All Fall Asleep, Where Do We Go?", "Don't Smile at Me", "No Time to Die"],
+                "answer": "Happier Than Ever"
+            },
+            {
+                "question": "Which country is Billie Eilish from?",
+                "options": ["United States", "United Kingdom", "Canada", "Australia"],
+                "answer": "United States"
+            }
+        ],
+        "Marvel": [
+            {
+                "question": "Who is the strongest Avenger?",
+                "options": ["Iron Man", "Thor", "Hulk", "Captain America"],
+                "answer": "Hulk"
+            },
+            {
+                "question": "What is the real name of the superhero Iron Man?",
+                "options": ["Steve Rogers", "Bruce Wayne", "Tony Stark", "Peter Parker"],
+                "answer": "Tony Stark"
+            },
+            {
+                "question": "What is the name of Thor's enchanted hammer?",
+                "options": ["Stormbreaker", "Mjolnir", "Gungnir", "Aegis"],
+                "answer": "Mjolnir"
+            },
+            {
+                "question": "Who is the main villain in the Avengers movie?",
+                "options": ["Loki", "Thanos", "Red Skull", "Ultron"],
+                "answer": "Loki"
+            },
+            {
+                "question": "What is the name of Captain America's shield?",
+                "options": ["Star-Spangled Shield", "Patriot Shield", "Freedom Shield", "Vibranium Shield"],
+                "answer": "Vibranium Shield"
+            },
+            {
+                "question": "Which Marvel character is known for saying 'I am Groot'?",
+                "options": ["Rocket Raccoon", "Drax the Destroyer", "Groot", "Gamora"],
+                "answer": "Groot"
+            },
+            {
+                "question": "Who is the leader of the X-Men?",
+                "options": ["Wolverine", "Professor X", "Cyclops", "Magneto"],
+                "answer": "Professor X"
+            },
+            {
+                "question": "Which Infinity Stone gives the power of time manipulation?",
+                "options": ["Space Stone", "Mind Stone", "Reality Stone", "Time Stone"],
+                "answer": "Time Stone"
+            },
+            {
+                "question": "Who is the alter ego of the superhero Black Widow?",
+                "options": ["Natasha Romanoff", "Wanda Maximoff", "Carol Danvers", "Hope Van Dyne"],
+                "answer": "Natasha Romanoff"
+            },
+            {
+                "question": "What is the name of the planet where the Guardians of the Galaxy first meet?",
+                "options": ["Xandar", "Sakaar", "Knowhere", "Ego"],
+                "answer": "Knowhere"
+            }
+        ]
+}
