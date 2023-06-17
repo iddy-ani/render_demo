@@ -27,7 +27,15 @@ game_layout = html.Div([
     html.Button('Next question', id='next-question', n_clicks=0),
     html.H3(id='score'),
     html.Button('Start New Game', id='new-game', n_clicks=0, style={'display': 'none'})
-])
+],
+    style={
+        # 'background-image': "url(background_img.jpeg)",
+        'background-size': 'cover',
+        'background-position': 'center',
+        'height': '90vh',
+        'padding': '20px',
+        "background-color": "#9370DB"
+    })
 
 @app.callback(
     [Output('store', 'data'),
