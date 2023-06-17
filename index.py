@@ -7,6 +7,7 @@ import dash_bootstrap_components as dbc
 
 # Import the layout and callback functions for Dona's Diagnosis
 from dona_diagnosis import dona_layout
+from avas_place import game_layout
 
 server = app.server
 
@@ -41,6 +42,7 @@ sidebar = html.Div(
                 dbc.NavLink("AlphaBot",
                             href="/stocktracker", active="exact"),
                 dbc.NavLink("Dona's Diagnosis", href="/dona", active="exact"),
+                dbc.NavLink("Ava's Place", href="/avasplace", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -108,6 +110,8 @@ def display_page(pathname):
         return dona_layout
     elif pathname == '/stocktracker':
         return stocks_layout
+    elif pathname == '/avasplace':
+        return game_layout
     elif pathname == '/':
         return home_layout
 
