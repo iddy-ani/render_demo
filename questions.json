@@ -49,7 +49,157 @@
                 "question": "Which is the largest ocean on Earth?",
                 "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
                 "answer": "Pacific Ocean"
-            }
+            },
+            {
+                "question": "Which country has the longest coastline?",
+                "options": ["Australia", "Russia", "Canada", "USA"],
+                "answer": "Canada"
+                },
+                {
+                "question": "What is the capital of New Zealand?",
+                "options": ["Auckland", "Christchurch", "Wellington", "Dunedin"],
+                "answer": "Wellington"
+                },
+                {
+                "question": "Which country is known as the 'Land of the Rising Sun'?",
+                "options": ["China", "Japan", "India", "Korea"],
+                "answer": "Japan"
+                },
+                {
+                "question": "Which city is known as the 'City of Canals'?",
+                "options": ["Amsterdam", "Venice", "Paris", "London"],
+                "answer": "Venice"
+                },
+                {
+                "question": "Which country is the largest in South America?",
+                "options": ["Argentina", "Brazil", "Chile", "Peru"],
+                "answer": "Brazil"
+                },
+                {
+                "question": "What is the capital of Canada?",
+                "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+                "answer": "Ottawa"
+                },
+                {
+                "question": "Which is the largest country in Africa by area?",
+                "options": ["Nigeria", "Egypt", "South Africa", "Algeria"],
+                "answer": "Algeria"
+                },
+                {
+                "question": "What is the capital of Spain?",
+                "options": ["Barcelona", "Valencia", "Madrid", "Seville"],
+                "answer": "Madrid"
+                },
+                {
+                "question": "Which is the most populated country in the world?",
+                "options": ["USA", "India", "China", "Russia"],
+                "answer": "China"
+                },
+                {
+                "question": "The Great Barrier Reef is off the coast of which country?",
+                "options": ["USA", "Australia", "South Africa", "Brazil"],
+                "answer": "Australia"
+                },
+                {
+                "question": "What is the currency of Japan?",
+                "options": ["Yen", "Pound", "Dollar", "Euro"],
+                "answer": "Yen"
+                },
+                {
+                "question": "What is the highest mountain in Africa?",
+                "options": ["Mount Everest", "Mount Kilimanjaro", "Mount Kenya", "Mount Aconcagua"],
+                "answer": "Mount Kilimanjaro"
+                },
+                {
+                "question": "What is the capital of Brazil?",
+                "options": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador"],
+                "answer": "Brasilia"
+                },
+                {
+                "question": "What body of water separates France and England?",
+                "options": ["Atlantic Ocean", "North Sea", "English Channel", "Bay of Biscay"],
+                "answer": "English Channel"
+                },
+                {
+                "question": "Which country is both an island and a continent?",
+                "options": ["Greenland", "Australia", "Antarctica", "Madagascar"],
+                "answer": "Australia"
+                },
+                {
+                "question": "What is the largest lake in Africa?",
+                "options": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Chad"],
+                "answer": "Lake Victoria"
+                },
+                {
+                "question": "Which is the longest river in the United States?",
+                "options": ["Mississippi River", "Missouri River", "Rio Grande", "Colorado River"],
+                "answer": "Missouri River"
+                },
+                {
+                "question": "In which country is the city of Dubai located?",
+                "options": ["Saudi Arabia", "Qatar", "United Arab Emirates", "Kuwait"],
+                "answer": "United Arab Emirates"
+                },
+                {
+                "question": "What is the highest peak in Europe?",
+                "options": ["Mont Blanc", "Mount Elbrus", "Matterhorn", "Mount Everest"],
+                "answer": "Mount Elbrus"
+                },
+                {
+                "question": "Which country is bordered by both the Atlantic and Indian Oceans?",
+                "options": ["Australia", "South Africa", "Brazil", "India"],
+                "answer": "South Africa"
+                },
+                {
+                "question": "What is the capital of Greece?",
+                "options": ["Thessaloniki", "Athens", "Santorini", "Rhodes"],
+                "answer": "Athens"
+                },
+                {
+                "question": "What is the longest river in Asia?",
+                "options": ["Yangtze River", "Yellow River", "Ganges River", "Mekong River"],
+                "answer": "Yangtze River"
+                },
+                {
+                "question": "Which country has the most lakes in the world?",
+                "options": ["USA", "Canada", "Russia", "Sweden"],
+                "answer": "Canada"
+                },
+                {
+                "question": "Which country is the smallest in the world by population?",
+                "options": ["Vatican City", "Monaco", "Nauru", "Tuvalu"],
+                "answer": "Vatican City"
+                },
+                {
+                "question": "What is the capital of Egypt?",
+                "options": ["Alexandria", "Giza", "Cairo", "Luxor"],
+                "answer": "Cairo"
+                },
+                {
+                "question": "What is the largest island in the Caribbean?",
+                "options": ["Cuba", "Hispaniola", "Puerto Rico", "Jamaica"],
+                "answer": "Cuba"
+                },
+                {
+                "question": "What is the capital of the United States?",
+                "options": ["New York", "Los Angeles", "Washington D.C.", "Chicago"],
+                "answer": "Washington D.C."
+                },
+                {
+                "question": "Which country has the most UNESCO World Heritage Sites?",
+                "options": ["France", "China", "Italy", "Spain"],
+                "answer": "Italy"
+                },
+                {
+                "question": "Which country is the Sahara Desert located in?",
+                "options": ["Mali", "Egypt", "Algeria", "It spans several countries"],
+                "answer": "It spans several countries"
+                },
+                {
+                "question": "What is the capital of Argentina?",
+                "options": ["Buenos Aires", "Santiago", "Lima", "Montevideo"],
+                "answer": "Buenos Aires"
+                }
         ],
         "History": [
             {
@@ -101,7 +251,172 @@
                 "question": "Which historical event took place in the Bay of Pigs?",
                 "options": ["Spanish-American War", "Cuban Missile Crisis", "Bay of Pigs Invasion", "Suez Crisis"],
                 "answer": "Bay of Pigs Invasion"
-            }
+            },
+            {
+                "question": "In what year did World War II end?",
+                "options": ["1940", "1945", "1950", "1955"],
+                "answer": "1945"
+                },
+                {
+                "question": "Who was the president of the United States during the Civil War?",
+                "options": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "Ulysses S. Grant"],
+                "answer": "Abraham Lincoln"
+                },
+                {
+                "question": "Which inventor is known for the development of the electric light bulb?",
+                "options": ["Nikola Tesla", "Albert Einstein", "Thomas Edison", "Alexander Graham Bell"],
+                "answer": "Thomas Edison"
+                },
+                {
+                "question": "What was the name of the ship that carried the Pilgrims to North America?",
+                "options": ["Mayflower", "Santa Maria", "HMS Bounty", "Endeavour"],
+                "answer": "Mayflower"
+                },
+                {
+                "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+                "options": ["Sally Ride", "Amelia Earhart", "Eileen Collins", "Valentina Tereshkova"],
+                "answer": "Amelia Earhart"
+                },
+                {
+                "question": "Which event started the First World War?",
+                "options": ["Bombing of Pearl Harbor", "Assassination of Archduke Franz Ferdinand", "Battle of Verdun", "Sinking of the Lusitania"],
+                "answer": "Assassination of Archduke Franz Ferdinand"
+                },
+                {
+                "question": "What was the name of the spacecraft that landed the first humans on the Moon?",
+                "options": ["Apollo 11", "Apollo 13", "Gemini 8", "Mercury-Redstone 3"],
+                "answer": "Apollo 11"
+                },
+                {
+                "question": "Who was the first Roman Emperor?",
+                "options": ["Julius Caesar", "Augustus", "Nero", "Constantine"],
+                "answer": "Augustus"
+                },
+                {
+                "question": "Where did the French Revolution start?",
+                "options": ["Paris", "Versailles", "Marseilles", "Lyon"],
+                "answer": "Paris"
+                },
+                {
+                "question": "What wall, built in the 1960s, became a symbol of the division between the Western and Eastern Blocs?",
+                "options": ["Great Wall of China", "Berlin Wall", "Hadrian's Wall", "Wailing Wall"],
+                "answer": "Berlin Wall"
+                },
+                {
+                "question": "Who discovered America?",
+                "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Marco Polo"],
+                "answer": "Christopher Columbus"
+                },
+                {
+                "question": "Who was the Greek goddess of love and beauty?",
+                "options": ["Hera", "Aphrodite", "Athena", "Artemis"],
+                "answer": "Aphrodite"
+                },
+                {
+                "question": "In what year did the French Revolution start?",
+                "options": ["1789", "1799", "1769", "1809"],
+                "answer": "1789"
+                },
+                {
+                "question": "Who was known as the 'Father of the Constitution'?",
+                "options": ["George Washington", "Thomas Jefferson", "James Madison", "Alexander Hamilton"],
+                "answer": "James Madison"
+                },
+                {
+                "question": "What was the name of the economic plan implemented in the Soviet Union from 1928 to 1932?",
+                "options": ["The New Deal", "The Marshall Plan", "Perestroika", "The First Five-Year Plan"],
+                "answer": "The First Five-Year Plan"
+                },
+                {
+                "question": "Which pharaoh was known for her beauty and her diplomatic skills in the ancient Egyptian civilization?",
+                "options": ["Hatshepsut", "Cleopatra", "Nefertiti", "Ramses"],
+                "answer": "Cleopatra"
+                },
+                {
+                "question": "What was the name of the list of grievances sent by the American colonies to King George III in 1775?",
+                "options": ["Olive Branch Petition", "Declaration of Independence", "Bill of Rights", "Common Sense"],
+                "answer": "Olive Branch Petition"
+                },
+                {
+                "question": "What was the deadliest battle of the American Civil War?",
+                "options": ["Battle of Gettysburg", "Battle of Antietam", "Battle of Bull Run", "Battle of Chancellorsville"],
+                "answer": "Battle of Gettysburg"
+                },
+                {
+                "question": "What was the main cause of the fall of the Roman Empire?",
+                "options": ["Invasions by Barbarian tribes", "Economic troubles and overreliance on slave labor", "Overexpansion and military overspending", "All of the above"],
+                "answer": "All of the above"
+                },
+                {
+                "question": "Who was the first emperor of China?",
+                "options": ["Confucius", "Qin Shi Huang", "Genghis Khan", "Mao Zedong"],
+                "answer": "Qin Shi Huang"
+                },
+                {
+                "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+                "options": ["Nikita Khrushchev", "Joseph Stalin", "Vladimir Lenin", "Mikhail Gorbachev"],
+                "answer": "Nikita Khrushchev"
+                },
+                {
+                "question": "Who was the first woman to win a Nobel Prize?",
+                "options": ["Rosalind Franklin", "Marie Curie", "Jane Goodall", "Elizabeth Blackburn"],
+                "answer": "Marie Curie"
+                },
+                {
+                "question": "What treaty ended World War I?",
+                "options": ["Treaty of Versailles", "Paris Peace Treaties", "Treaty of Tordesillas", "Geneva Convention"],
+                "answer": "Treaty of Versailles"
+                },
+                {
+                "question": "Which revolution took place in Russia in 1917?",
+                "options": ["October Revolution", "February Revolution", "Russian Revolution", "All of the above"],
+                "answer": "All of the above"
+                },
+                {
+                "question": "Which American city was the main target of the atomic bomb 'Little Boy' in World War II?",
+                "options": ["Nagasaki", "Hiroshima", "Tokyo", "Osaka"],
+                "answer": "Hiroshima"
+                },
+                {
+                "question": "Who succeeded Queen Victoria on the British throne?",
+                "options": ["Edward VII", "George V", "Edward VIII", "George VI"],
+                "answer": "Edward VII"
+                },
+                {
+                "question": "Who was known as 'The Sun King'?",
+                "options": ["Louis XIV", "Henry VIII", "Napoleon Bonaparte", "Charles I"],
+                "answer": "Louis XIV"
+                },
+                {
+                "question": "What year marked the start of the American Revolution?",
+                "options": ["1770", "1775", "1780", "1785"],
+                "answer": "1775"
+                },
+                {
+                "question": "Who were the main participants in the Hundred Years' War?",
+                "options": ["France and England", "England and Spain", "France and Spain", "Germany and France"],
+                "answer": "France and England"
+                },
+                {
+                "question": "Who was the first person to circumnavigate the globe?",
+                "options": ["Christopher Columbus", "Ferdinand Magellan", "Francis Drake", "Vasco da Gama"],
+                "answer": "Ferdinand Magellan"
+                },
+                {
+                "question": "Who assassinated President Abraham Lincoln?",
+                "options": ["John Wilkes Booth", "Lee Harvey Oswald", "Charles J. Guiteau", "Leon Czolgosz"],
+                "answer": "John Wilkes Booth"
+                },
+                {
+                "question": "Who was known as the 'Iron Lady'?",
+                "options": ["Margaret Thatcher", "Indira Gandhi", "Golda Meir", "Angela Merkel"],
+                "answer": "Margaret Thatcher"
+                },
+                {
+                "question": "Which African leader was instrumental in ending apartheid?",
+                "options": ["Kwame Nkrumah", "Robert Mugabe", "Nelson Mandela", "Julius Nyerere"],
+                "answer": "Nelson Mandela"
+                }
         ],
         "Math": [
             {
@@ -153,7 +468,157 @@
                 "question": "What is 7^0?",
                 "options": ["0", "1", "7", "undefined"],
                 "answer": "1"
-            }
+            },
+            {
+                "question": "Which of the following numbers is a prime number?",
+                "options": ["9", "15", "23", "28"],
+                "answer": "23"
+                },
+                {
+                "question": "What is the value of e (base of natural logarithms) to three decimal places?",
+                "options": ["2.178", "2.718", "2.481", "2.891"],
+                "answer": "2.718"
+                },
+                {
+                "question": "What is the antiderivative of 2x?",
+                "options": ["x^2 + C", "2x + C", "x^2", "2x"],
+                "answer": "x^2 + C"
+                },
+                {
+                "question": "What is the determinant of a 2x2 matrix [[a, b], [c, d]]?",
+                "options": ["ad + bc", "ad - bc", "ab - cd", "ad / bc"],
+                "answer": "ad - bc"
+                },
+                {
+                "question": "What is the surface area of a cube with edge length a?",
+                "options": ["6a^2", "4a^2", "a^2", "12a^2"],
+                "answer": "6a^2"
+                },
+                {
+                "question": "What is the sum of exterior angles in any polygon (in degrees)?",
+                "options": ["90", "180", "270", "360"],
+                "answer": "360"
+                },
+                {
+                "question": "How many faces does a dodecahedron have?",
+                "options": ["10", "12", "20", "30"],
+                "answer": "12"
+                },
+                {
+                "question": "What is the natural logarithm of 1?",
+                "options": ["0", "1", "Undefined", "-1"],
+                "answer": "0"
+                },
+                {
+                "question": "What is the general formula for an arithmetic sequence?",
+                "options": ["a + (n-1)d", "a * r^n", "a / (1 - r)", "a * n^2"],
+                "answer": "a + (n-1)d"
+                },
+                {
+                "question": "How many radians are there in a full circle?",
+                "options": ["2pi", "pi", "4pi", "1pi"],
+                "answer": "2pi"
+                },
+                {
+                "question": "What is the value of the golden ratio to three decimal places?",
+                "options": ["1.618", "1.414", "1.732", "1.333"],
+                "answer": "1.618"
+                },
+                {
+                "question": "What is the volume of a sphere with radius r?",
+                "options": ["4/3pir^3", "4pir^2", "pir^3", "2/3pir^3"],
+                "answer": "4/3pir^3"
+                },
+                {
+                "question": "How do you calculate the median of a set of numbers?",
+                "options": ["The middle number when the numbers are arranged in order", "The most frequently occurring number", "The number that divides the data set into two halves", "The sum of the numbers divided by the number of items"],
+                "answer": "The middle number when the numbers are arranged in order"
+                },
+                {
+                "question": "What is the probability of rolling a 6 on a fair six-sided dice?",
+                "options": ["1/6", "1/2", "1/3", "1/4"],
+                "answer": "1/6"
+                },
+                {
+                "question": "What is the y-intercept of the linear equation y = mx + c?",
+                "options": ["m", "x", "y", "c"],
+                "answer": "c"
+                },
+                {
+                "question": "Which of the following numbers is an irrational number?",
+                "options": ["3/2", "0.5", "sqrt(2)", "2"],
+                "answer": "sqrt(2)"
+                },
+                {
+                "question": "What is the general formula for a geometric sequence?",
+                "options": ["a * r^n", "a + (n-1)d", "a * n^2", "a / (1 - r)"],
+                "answer": "a * r^n"
+                },
+                {
+                "question": "What is the quadratic formula used to solve ax^2 + bx + c = 0?",
+                "options": ["x = (-b ± sqrt(b^2 - 4ac)) / (2a)", "x = (-b ± sqrt(b^2 + 4ac)) / (2a)", "x = (b ± sqrt(b^2 - 4ac)) / (2a)", "x = (b ± sqrt(b^2 + 4ac)) / (2a)"],
+                "answer": "x = (-b ± sqrt(b^2 - 4ac)) / (2a)"
+                },
+                {
+                "question": "How many degrees are in one radian?",
+                "options": ["57.3", "90", "180", "360"],
+                "answer": "57.3"
+                },
+                {
+                "question": "What is the sum of the interior angles of an n-sided polygon (in degrees)?",
+                "options": ["(n-2)180", "(n+2)180", "(n-1)180", "n180"],
+                "answer": "(n-2)180"
+                },
+                {
+                "question": "What is the decimal equivalent of the fraction 3/8?",
+                "options": ["0.375", "0.625", "0.875", "0.125"],
+                "answer": "0.375"
+                },
+                {
+                "question": "What is the standard deviation of a data set?",
+                "options": ["A measure of the amount of variation or dispersion in a set of values", "The sum of the values divided by the number of values", "The middle value in the sorted set of values", "The value that occurs most frequently in a data set"],
+                "answer": "A measure of the amount of variation or dispersion in a set of values"
+                },
+                {
+                "question": "What is the sum of the angles of a quadrilateral (in degrees)?",
+                "options": ["180", "270", "360", "450"],
+                "answer": "360"
+                },
+                {
+                "question": "How many diagonals does a polygon with n sides have?",
+                "options": ["n(n-3)/2", "n(n-1)/2", "n(n+1)/2", "n(n+3)/2"],
+                "answer": "n(n-3)/2"
+                },
+                {
+                "question": "What is the common ratio in the geometric series: 2, 4, 8, 16, ...?",
+                "options": ["2", "4", "3", "1"],
+                "answer": "2"
+                },
+                {
+                "question": "What is the volume of a cone with radius r and height h?",
+                "options": ["1/3pir^2h", "pir^2h", "2pir^2h", "1/2pir^2h"],
+                "answer": "1/3pir^2h"
+                },
+                {
+                "question": "What is the slope of the line described by the equation y = mx + c?",
+                "options": ["m", "c", "x", "y"],
+                "answer": "m"
+                },
+                {
+                "question": "How many elements does a set with n elements have?",
+                "options": ["2^n", "n^2", "n!", "n^n"],
+                "answer": "2^n"
+                },
+                {
+                "question": "What is the factorial of a non-negative integer n, denoted by n!?",
+                "options": ["The product of all positive integers less than or equal to n", "The sum of all positive integers less than or equal to n", "The product of all positive integers greater than or equal to n", "The sum of all positive integers greater than or equal to n"],
+                "answer": "The product of all positive integers less than or equal to n"
+                },
+                {
+                "question": "What is the surface area of a cylinder with base radius r and height h?",
+                "options": ["2pir(r+h)", "pir(r+h)", "2pir*(r-h)", "pir(r-h)"],
+                "answer": "2pir*(r+h)"
+                }
         ],
         "Physics": [
             {
@@ -205,7 +670,182 @@
                 "question": "What is the acceleration due to gravity on Earth?",
                 "options": ["9.8 m/s^2", "6.7 m/s^2", "4.9 m/s^2", "12.5 m/s^2"],
                 "answer": "9.8 m/s^2"
-            }
+            },
+            {
+                "question": "What is the speed of light in a vacuum?",
+                "options": ["3 x 10^8 m/s", "2 x 10^8 m/s", "1 x 10^8 m/s", "4 x 10^8 m/s"],
+                "answer": "3 x 10^8 m/s"
+                },
+                {
+                "question": "What principle states that the total energy in a closed system remains constant?",
+                "options": ["Newton's Second Law", "Conservation of Energy", "Archimedes' Principle", "Pascal's Law"],
+                "answer": "Conservation of Energy"
+                },
+                {
+                "question": "Who formulated the theory of general relativity?",
+                "options": ["Sir Isaac Newton", "Albert Einstein", "Nikola Tesla", "Galileo Galilei"],
+                "answer": "Albert Einstein"
+                },
+                {
+                "question": "What does the Doppler effect describe?",
+                "options": ["The change in frequency or wavelength of a wave in relation to an observer", "The conversion of energy from one form to another", "The tendency of an object to stay at rest or in motion", "The interaction between charged particles"],
+                "answer": "The change in frequency or wavelength of a wave in relation to an observer"
+                },
+                {
+                "question": "What is the SI unit of energy?",
+                "options": ["Newton", "Joule", "Watt", "Ampere"],
+                "answer": "Joule"
+                },
+                {
+                "question": "Which force holds the atomic nucleus together?",
+                "options": ["Gravitational force", "Electromagnetic force", "Strong nuclear force", "Weak nuclear force"],
+                "answer": "Strong nuclear force"
+                },
+                {
+                "question": "What is the second law of thermodynamics?",
+                "options": ["Energy cannot be created or destroyed", "In any energy transfer, some energy is lost as heat", "Force equals mass times acceleration", "The entropy of a closed system always increases"],
+                "answer": "The entropy of a closed system always increases"
+                },
+                {
+                "question": "What is the main principle behind a laser?",
+                "options": ["Refraction", "Reflection", "Interference", "Stimulated emission"],
+                "answer": "Stimulated emission"
+                },
+                {
+                "question": "What is the unit of magnetic field in the International System?",
+                "options": ["Tesla", "Watt", "Hertz", "Ampere"],
+                "answer": "Tesla"
+                },
+                {
+                "question": "What is the concept of 'quantum entanglement'?",
+                "options": ["The interaction between matter and energy", "The pairing of quantum states of particles", "The splitting of a quantum particle", "The superposition of quantum states"],
+                "answer": "The pairing of quantum states of particles"
+                },
+                {
+                "question": "What is the principle of superposition in physics?",
+                "options": ["It is the phenomenon where the net displacement is the vector sum of individual displacements", "It is the principle where the current in a circuit is proportional to the voltage", "It is the principle where the force applied on an object is equal to the rate of change of its momentum", "It is the phenomenon where the total energy of a system is the sum of its kinetic and potential energy"],
+                "answer": "It is the phenomenon where the net displacement is the vector sum of individual displacements"
+                },
+                {
+                "question": "What is the principle of uncertainty in quantum physics?",
+                "options": ["It's impossible to simultaneously measure the exact position and momentum of a particle", "It's uncertain whether light behaves as a particle or a wave", "It's uncertain whether an atom will decay", "It's impossible to measure the exact speed of light"],
+                "answer": "It's impossible to simultaneously measure the exact position and momentum of a particle"
+                },
+                {
+                "question": "Who proposed the 'special theory of relativity'?",
+                "options": ["Niels Bohr", "Albert Einstein", "Isaac Newton", "James Clerk Maxwell"],
+                "answer": "Albert Einstein"
+                },
+                {
+                "question": "What does the Planck constant represent?",
+                "options": ["The energy of a quantum of energy", "The force exerted by gravity", "The speed of light", "The charge of an electron"],
+                "answer": "The energy of a quantum of energy"
+                },
+                {
+                "question": "What is the SI unit of frequency?",
+                "options": ["Hertz", "Tesla", "Joule", "Newton"],
+                "answer": "Hertz"
+                },
+                {
+                "question": "What is the zeroth law of thermodynamics?",
+                "options": ["If two systems are each in thermal equilibrium with a third, they are in thermal equilibrium with each other", "The total energy of the universe remains constant", "In all energy exchanges, if no energy enters or leaves the system, the potential energy of the state will always be less than that of the initial state", "All processes increase the total entropy of the universe"],
+                "answer": "If two systems are each in thermal equilibrium with a third, they are in thermal equilibrium with each other"
+                },
+                {
+                "question": "What is the formula for potential energy?",
+                "options": ["PE = mgh", "PE = mv^2", "PE = 1/2mv^2", "PE = Fd"],
+                "answer": "PE = mgh"
+                },
+                {
+                "question": "What are the four fundamental forces of nature?",
+                "options": ["Gravity, Electromagnetic, Strong nuclear, Weak nuclear", "Gravity, Magnetic, Strong nuclear, Electric", "Gravity, Electromagnetic, Strong nuclear, Centrifugal", "Gravity, Electromagnetic, Strong nuclear, Inertial"],
+                "answer": "Gravity, Electromagnetic, Strong nuclear, Weak nuclear"
+                },
+                {
+                "question": "What is the name of the physicist who discovered radioactivity?",
+                "options": ["Marie Curie", "Henri Becquerel", "Ernest Rutherford", "J.J. Thomson"],
+                "answer": "Henri Becquerel"
+                },
+                {
+                "question": "Who is known for the 'double-slit experiment'?",
+                "options": ["Richard Feynman", "Niels Bohr", "Thomas Young", "Albert Einstein"],
+                "answer": "Thomas Young"
+                },
+                {
+                "question": "What principle states that light travels at the fastest speed in a straight line?",
+                "options": ["Principle of Reflection", "Fermat's Principle of Least Time", "Huygens' Principle", "Heisenberg's Uncertainty Principle"],
+                "answer": "Fermat's Principle of Least Time"
+                },
+                {
+                "question": "What is the third law of motion?",
+                "options": ["For every action, there is an equal and opposite reaction", "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass", "An object at rest tends to stay at rest and an object in motion tends to stay in motion with the same speed and in the same direction unless acted upon by an unbalanced force", "The total momentum of an isolated system remains constant if no external forces act on it"],
+                "answer": "For every action, there is an equal and opposite reaction"
+                },
+                {
+                "question": "What does Schrodinger's wave equation describe?",
+                "options": ["The motion of planets", "The behavior of particles in a gas", "The propagation of light waves", "The probability distribution of a particle's position"],
+                "answer": "The probability distribution of a particle's position"
+                },
+                {
+                "question": "What does E=mc^2 represent?",
+                "options": ["Energy equals mass times the speed of light squared", "Energy equals mass times the speed of sound squared", "Energy equals mass times the gravitational constant", "Energy equals mass times Planck's constant"],
+                "answer": "Energy equals mass times the speed of light squared"
+                },
+                {
+                "question": "What is the principle of conservation of momentum?",
+                "options": ["The total momentum of a closed system remains constant", "Momentum equals mass times velocity", "Momentum is always conserved", "The rate of change of momentum of a body is directly proportional to the force applied and occurs in the direction in which the force is applied"],
+                "answer": "The total momentum of a closed system remains constant"
+                },
+                {
+                "question": "Who proposed the concept of 'quarks'?",
+                "options": ["Murray Gell-Mann", "Richard Feynman", "Paul Dirac", "Werner Heisenberg"],
+                "answer": "Murray Gell-Mann"
+                },
+                {
+                "question": "What does 'c' represent in the equation E=mc^2?",
+                "options": ["The charge of a particle", "The speed of light", "The gravitational constant", "Planck's constant"],
+                "answer": "The speed of light"
+                },
+                {
+                "question": "What is the phenomenon of light bending when it passes from one medium to another called?",
+                "options": ["Refraction", "Reflection", "Interference", "Diffraction"],
+                "answer": "Refraction"
+                },
+                {
+                "question": "What is the name of the particles that mediate the weak nuclear force?",
+                "options": ["Gluons", "Photons", "W and Z bosons", "Gravitons"],
+                "answer": "W and Z bosons"
+                },
+                {
+                "question": "What is 'Planck's constant'?",
+                "options": ["6.626 x 10^-34 Js", "9.81 m/s^2", "3.00 x 10^8 m/s", "1.6 x 10^-19 C"],
+                "answer": "6.626 x 10^-34 Js"
+                },
+                {
+                "question": "Who is known as the father of quantum physics?",
+                "options": ["Max Planck", "Albert Einstein", "Niels Bohr", "Erwin Schrodinger"],
+                "answer": "Max Planck"
+                },
+                {
+                "question": "What phenomenon shows the particle nature of light?",
+                "options": ["Wave-particle duality", "Photoelectric effect", "Interference", "Refraction"],
+                "answer": "Photoelectric effect"
+                },
+                {
+                "question": "What type of particle is a proton?",
+                "options": ["Lepton", "Baryon", "Meson", "Boson"],
+                "answer": "Baryon"
+                },
+                {
+                "question": "What is the SI unit of charge?",
+                "options": ["Coulomb", "Ampere", "Ohm", "Volt"],
+                "answer": "Coulomb"
+                },
+                {
+                "question": "What does a Geiger counter measure?",
+                "options": ["Radiation", "Electric current", "Magnetic field", "Gravitational force"],
+                "answer": "Radiation"
+                }
         ],
         "Anatomy": [
             {
@@ -257,7 +897,117 @@
                 "question": "Which part of the digestive system is responsible for absorbing nutrients from food?",
                 "options": ["Stomach", "Large intestine", "Small intestine", "Esophagus"],
                 "answer": "Small intestine"
-            }
+            },
+            {
+                "question": "What organ produces insulin?",
+                "options": ["Liver", "Pancreas", "Kidneys", "Spleen"],
+                "answer": "Pancreas"
+                },
+                {
+                "question": "Which type of cell carries oxygen in the blood?",
+                "options": ["White blood cell", "Red blood cell", "Platelet", "Plasma cell"],
+                "answer": "Red blood cell"
+                },
+                {
+                "question": "Which body system controls the immune response?",
+                "options": ["Lymphatic system", "Endocrine system", "Digestive system", "Respiratory system"],
+                "answer": "Lymphatic system"
+                },
+                {
+                "question": "Which bone is the longest in the human body?",
+                "options": ["Femur", "Tibia", "Humerus", "Radius"],
+                "answer": "Femur"
+                },
+                {
+                "question": "What are the smallest blood vessels in the body called?",
+                "options": ["Arteries", "Veins", "Capillaries", "Aorta"],
+                "answer": "Capillaries"
+                },
+                {
+                "question": "Which organ is responsible for detoxifying chemicals and metabolizing drugs in the body?",
+                "options": ["Liver", "Kidneys", "Spleen", "Pancreas"],
+                "answer": "Liver"
+                },
+                {
+                "question": "What are the basic structural and functional units of life in the body called?",
+                "options": ["Tissues", "Organs", "Cells", "Systems"],
+                "answer": "Cells"
+                },
+                {
+                "question": "What is the outermost layer of the skin called?",
+                "options": ["Dermis", "Epidermis", "Subcutaneous", "Stratum corneum"],
+                "answer": "Epidermis"
+                },
+                {
+                "question": "Which organ stores bile produced by the liver?",
+                "options": ["Gallbladder", "Stomach", "Pancreas", "Small intestine"],
+                "answer": "Gallbladder"
+                },
+                {
+                "question": "What is the main function of the lymphatic system?",
+                "options": ["To fight infection and disease", "To deliver oxygen to the body", "To control voluntary muscle movements", "To regulate body temperature"],
+                "answer": "To fight infection and disease"
+                },
+                {
+                "question": "Which part of the brain controls balance and coordination?",
+                "options": ["Cerebellum", "Cerebrum", "Brainstem", "Hypothalamus"],
+                "answer": "Cerebellum"
+                },
+                {
+                "question": "What is the primary function of white blood cells?",
+                "options": ["Carrying oxygen", "Fighting infection", "Blood clotting", "Regulating body temperature"],
+                "answer": "Fighting infection"
+                },
+                {
+                "question": "Which gland regulates metabolism?",
+                "options": ["Thyroid gland", "Adrenal gland", "Pituitary gland", "Pineal gland"],
+                "answer": "Thyroid gland"
+                },
+                {
+                "question": "Which structure connects muscles to bones?",
+                "options": ["Ligaments", "Tendons", "Cartilage", "Fascia"],
+                "answer": "Tendons"
+                },
+                {
+                "question": "What is the function of the alveoli in the lungs?",
+                "options": ["Production of mucus", "Exchange of oxygen and carbon dioxide", "Production of sound", "Protection from foreign particles"],
+                "answer": "Exchange of oxygen and carbon dioxide"
+                },
+                {
+                "question": "Which part of the heart receives deoxygenated blood from the body?",
+                "options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+                "answer": "Right atrium"
+                },
+                {
+                "question": "What is the function of the cochlea in the ear?",
+                "options": ["Amplifying sound", "Producing earwax", "Regulating balance", "Converting vibrations into nerve signals"],
+                "answer": "Converting vibrations into nerve signals"
+                },
+                {
+                "question": "What type of tissue connects bones to other bones?",
+                "options": ["Cartilage", "Tendons", "Muscle", "Ligaments"],
+                "answer": "Ligaments"
+                },
+                {
+                "question": "What are the building blocks of proteins in the body?",
+                "options": ["Glucose", "Fatty acids", "Nucleotides", "Amino acids"],
+                "answer": "Amino acids"
+                },
+                {
+                "question": "What are the structures called where two neurons connect?",
+                "options": ["Synapses", "Axons", "Dendrites", "Glia"],
+                "answer": "Synapses"
+                },
+                {
+                "question": "What is the primary function of the colon?",
+                "options": ["Absorption of water", "Digestion of food", "Absorption of nutrients", "Secretion of enzymes"],
+                "answer": "Absorption of water"
+                },
+                {
+                "question": "What is the name of the tube that connects the kidney to the bladder?",
+                "options": ["Urethra", "Ureter", "Renal artery", "Renal vein"],
+                "answer": "Ureter"
+                }
         ],
         "Computer Games": [
             {
@@ -309,9 +1059,514 @@
                 "question": "Which game features a futuristic sport where players control rocket-powered cars to score goals?",
                 "options": ["Rocket League", "FIFA", "NBA 2K", "NFL Madden"],
                 "answer": "Rocket League"
+            },
+            {
+                "question": "Which game series is known for its immersive open-world gameplay and modding community?",
+                "options": ["The Elder Scrolls", "Far Cry", "Fallout", "Mass Effect"],
+                "answer": "The Elder Scrolls"
+            },
+            {
+                "question": "Which game features a team-based gameplay where players control various heroes with unique abilities?",
+                "options": ["Overwatch", "Team Fortress 2", "Rainbow Six Siege", "Apex Legends"],
+                "answer": "Overwatch"
+            },
+            {
+                "question": "Which game series allows players to simulate managing their own virtual football team?",
+                "options": ["Football Manager", "FIFA Manager", "Pro Evolution Soccer", "Madden NFL"],
+                "answer": "Football Manager"
+            },
+            {
+                "question": "Which game is set in a post-apocalyptic world and follows the story of a lone survivor?",
+                "options": ["Fallout", "The Last of Us", "Metro Exodus", "Days Gone"],
+                "answer": "Fallout"
+            },
+            {
+                "question": "Which game series is set in the world of Tamriel and allows players to embark on epic quests and adventures?",
+                "options": ["The Elder Scrolls", "Dragon Age", "Dark Souls", "The Witcher"],
+                "answer": "The Elder Scrolls"
+            },
+            {
+                "question": "Which game features a multiplayer online battle arena (MOBA) gameplay with teams of heroes battling against each other?",
+                "options": ["League of Legends", "Dota 2", "Heroes of the Storm", "Smite"],
+                "answer": "League of Legends"
+            },
+            {
+                "question": "Which game series is known for its intense, realistic military combat and strategic gameplay?",
+                "options": ["Arma", "Battlefield", "Tom Clancy's Ghost Recon", "Medal of Honor"],
+                "answer": "Arma"
+            },
+            {
+                "question": "Which game features a vast galaxy to explore, trade, and engage in space combat?",
+                "options": ["Elite Dangerous", "No Man's Sky", "Star Citizen", "EVE Online"],
+                "answer": "Elite Dangerous"
+            },
+            {
+                "question": "Which game series is set in the world of high-fantasy and follows the adventures of a dragonborn hero?",
+                "options": ["The Elder Scrolls", "The Witcher", "Dragon Age", "Dark Souls"],
+                "answer": "The Elder Scrolls"
+            },
+            {
+                "question": "Which game features a battle royale mode where players fight for survival on a shrinking map?",
+                "options": ["PlayerUnknown's Battlegrounds", "Apex Legends", "Call of Duty: Warzone", "Fortnite"],
+                "answer": "PlayerUnknown's Battlegrounds"
+            },
+            {
+                "question": "Which game series is known for its realistic driving mechanics and open-world environments?",
+                "options": ["Grand Theft Auto", "Forza", "Need for Speed", "Burnout"],
+                "answer": "Forza"
+            },
+            {
+                "question": "Which game features a cooperative gameplay where players work together to complete objectives and fight against AI-controlled enemies?",
+                "options": ["Left 4 Dead", "Destiny", "Warframe", "Payday 2"],
+                "answer": "Left 4 Dead"
+            },
+            {
+                "question": "Which game series is set in a post-apocalyptic world where players navigate through dangerous creatures and factions?",
+                "options": ["Fallout", "The Last of Us", "Borderlands", "Metro"],
+                "answer": "Metro"
+            },
+            {
+                "question": "Which game features a stealthy assassin protagonist navigating through historical settings?",
+                "options": ["Assassin's Creed", "Dishonored", "Hitman", "Thief"],
+                "answer": "Assassin's Creed"
+            },
+            {
+                "question": "Which game series allows players to build and manage their own virtual city or civilization?",
+                "options": ["SimCity", "Civilization", "Cities: Skylines", "Tropico"],
+                "answer": "Civilization"
+            },
+            {
+                "question": "Which game features a survival gameplay where players must gather resources and build shelter to survive against monsters?",
+                "options": ["Don't Starve", "Minecraft", "The Forest", "Subnautica"],
+                "answer": "Don't Starve"
+            },
+            {
+                "question": "Which game series is set in a science fiction universe and follows the story of Commander Shepard?",
+                "options": ["Mass Effect", "Halo", "Star Wars: Knights of the Old Republic", "Deus Ex"],
+                "answer": "Mass Effect"
+            },
+            {
+                "question": "Which game features a massive multiplayer online role-playing gameplay set in the world of Norrath?",
+                "options": ["EverQuest", "World of Warcraft", "Final Fantasy XIV", "Guild Wars 2"],
+                "answer": "EverQuest"
+            },
+            {
+                "question": "Which game series is known for its strategic turn-based combat and epic fantasy storytelling?",
+                "options": ["Final Fantasy", "Fire Emblem", "XCOM", "Tactics Ogre"],
+                "answer": "Fire Emblem"
+            },
+            {
+                "question": "Which game features a post-apocalyptic world where players control a lone wanderer exploring the wasteland?",
+                "options": ["Fallout", "Rage", "Mad Max", "The Last of Us"],
+                "answer": "Fallout"
+            },
+            {
+                "question": "Which game series is set in a fictional universe where players control a hero with various magical abilities?",
+                "options": ["Fable", "The Witcher", "Divinity", "Dragon Age"],
+                "answer": "Fable"
+            },
+            {
+                "question": "Which game features a battle royale mode where players compete in a virtual arena using vehicles and weapons?",
+                "options": ["PlayerUnknown's Battlegrounds", "H1Z1", "Ring of Elysium", "Apex Legends"],
+                "answer": "H1Z1"
+            },
+            {
+                "question": "Which game series is known for its immersive storytelling and player choices that affect the outcome of the game?",
+                "options": ["Mass Effect", "The Witcher", "Life is Strange", "Bioshock"],
+                "answer": "Life is Strange"
+            },
+            {
+                "question": "Which game features a cooperative gameplay where players work together to build and defend structures against waves of zombies?",
+                "options": ["Fortnite", "Left 4 Dead", "Plants vs. Zombies", "7 Days to Die"],
+                "answer": "7 Days to Die"
+            },
+            {
+                "question": "Which game series is set in a dystopian future where players control a hacker fighting against a powerful corporation?",
+                "options": ["Deus Ex", "Watch Dogs", "System Shock", "Cyberpunk"],
+                "answer": "Deus Ex"
+            },
+            {
+                "question": "Which game features a multiplayer online battle arena (MOBA) gameplay where players control gods and mythical creatures?",
+                "options": ["Smite", "League of Legends", "Dota 2", "Heroes of the Storm"],
+                "answer": "Smite"
+            },
+            {
+                "question": "Which game series is known for its intense, realistic military combat and teamwork-focused gameplay?",
+                "options": ["Rainbow Six Siege", "Arma", "Ghost Recon", "Battlefield"],
+                "answer": "Ghost Recon"
+            },
+            {
+                "question": "Which game features a stealthy protagonist navigating through an alternate version of history?",
+                "options": ["Dishonored", "Assassin's Creed", "Thief", "Bioshock"],
+                "answer": "Dishonored"
+            },
+            {
+                "question": "Which game series allows players to build and manage their own theme park or zoo?",
+                "options": ["RollerCoaster Tycoon", "Zoo Tycoon", "Planet Coaster", "Jurassic World Evolution"],
+                "answer": "RollerCoaster Tycoon"
+            },
+            {
+                "question": "Which game features a multiplayer online battle arena (MOBA) gameplay where players control heroes with unique abilities?",
+                "options": ["Heroes of the Storm", "Dota 2", "League of Legends", "Overwatch"],
+                "answer": "Heroes of the Storm"
+            },
+            {
+                "question": "Which game series is known for its epic space exploration, trading, and combat gameplay?",
+                "options": ["Elite Dangerous", "No Man's Sky", "EVE Online", "Star Citizen"],
+                "answer": "No Man's Sky"
+            },
+            {
+                "question": "Which game features a survival horror gameplay where players navigate through a zombie-infested city?",
+                "options": ["Resident Evil", "Silent Hill", "Dead Space", "Outlast"],
+                "answer": "Resident Evil"
+            },
+            {
+                "question": "Which game series is set in a post-apocalyptic world where players control a survivor fighting against hordes of zombies?",
+                "options": ["The Walking Dead", "Days Gone", "State of Decay", "Dying Light"],
+                "answer": "State of Decay"
+            },
+            {
+                "question": "Which game features a stealthy protagonist navigating through a futuristic city while using parkour and gadgets?",
+                "options": ["Mirror's Edge", "Dishonored", "Deus Ex", "Watch Dogs"],
+                "answer": "Mirror's Edge"
+            },
+            {
+                "question": "Which game series is known for its intense racing gameplay and realistic driving mechanics?",
+                "options": ["Gran Turismo", "Need for Speed", "Burnout", "Forza"],
+                "answer": "Gran Turismo"
+            },
+            {
+                "question": "Which game features a cooperative gameplay where players work together to survive against hordes of monsters?",
+                "options": ["Monster Hunter", "Left 4 Dead", "Dead by Daylight", "The Forest"],
+                "answer": "Monster Hunter"
+            },
+            {
+                "question": "Which game series is set in a dark, medieval fantasy world and focuses on challenging combat and exploration?",
+                "options": ["Dark Souls", "Bloodborne", "Sekiro", "The Witcher"],
+                "answer": "Dark Souls"
+            },
+            {
+                "question": "Which game features a first-person perspective and allows players to explore a post-apocalyptic nuclear wasteland?",
+                "options": ["Fallout", "Rage", "Metro", "Bioshock"],
+                "answer": "Rage"
+            },
+            {
+                "question": "Which game series is known for its strategic turn-based combat and monster-catching gameplay?",
+                "options": ["Pokémon", "Digimon", "Yo-Kai Watch", "Monster Rancher"],
+                "answer": "Pokémon"
+            },
+            {
+                "question": "Which game features a cooperative gameplay where players work together to build and defend against waves of monsters?",
+                "options": ["Terraria", "Minecraft", "Don't Starve", "Stardew Valley"],
+                "answer": "Terraria"
+            },
+            {
+                "question": "Which game series is set in a post-apocalyptic world where players control a survivor navigating through dangerous environments?",
+                "options": ["The Last of Us", "Metro", "Days Gone", "Fallout"],
+                "answer": "Days Gone"
+            },
+            {
+                "question": "Which game features a multiplayer online battle arena (MOBA) gameplay with a focus on teamwork and strategy?",
+                "options": ["Smite", "Heroes of the Storm", "League of Legends", "Dota 2"],
+                "answer": "Dota 2"
+            },
+            {
+                "question": "Which game series is known for its intense, realistic military combat and immersive storytelling?",
+                "options": ["Battlefield", "Call of Duty", "Medal of Honor", "Tom Clancy's Ghost Recon"],
+                "answer": "Tom Clancy's Ghost Recon"
             }
         ],
         "FRIENDS": [
+            {
+                "question": "What is the name of Ross and Monica's sister?",
+                "options": ["Phoebe", "Rachel", "Joey", "Emily"],
+                "answer": "Phoebe"
+            },
+            {
+                "question": "Which character famously said 'How you doin?'",
+                "options": ["Chandler", "Ross", "Joey", "Monica"],
+                "answer": "Joey"
+            },
+            {
+                "question": "What is the name of Chandler's annoying roommate before Joey?",
+                "options": ["Eddie", "Gunther", "Mike", "Richard"],
+                "answer": "Eddie"
+            },
+            {
+                "question": "What is the name of Ross and Monica's pet dog?",
+                "options": ["Chick", "Duck", "Moo", "Whiskers"],
+                "answer": "Chick"
+            },
+            {
+                "question": "What song is Phoebe best known for?",
+                "options": ["Smelly Cat", "I'll Be There for You", "Wonderwall", "My Generation"],
+                "answer": "Smelly Cat"
+            },
+            {
+                "question": "Which character had a third nipple?",
+                "options": ["Ross", "Joey", "Chandler", "Phoebe"],
+                "answer": "Chandler"
+            },
+            {
+                "question": "What is the name of Ross and Monica's parents?",
+                "options": ["Jack and Judy", "Frank and Alice", "Frank and Phoebe", "Richard and Emily"],
+                "answer": "Jack and Judy"
+            },
+            {
+                "question": "What is the name of Rachel's sister?",
+                "options": ["Phoebe", "Monica", "Amy", "Emily"],
+                "answer": "Amy"
+            },
+            {
+                "question": "Which character worked as a paleontologist?",
+                "options": ["Ross", "Chandler", "Joey", "Rachel"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Joey's stuffed penguin?",
+                "options": ["Hugsy", "Waddle", "Mr. Penguin", "Penny"],
+                "answer": "Hugsy"
+            },
+            {
+                "question": "What is the name of Ross and Monica's grandmother?",
+                "options": ["Nana", "Nanny", "Grandma Geller", "Grammy"],
+                "answer": "Nana"
+            },
+            {
+                "question": "Which character worked as a waitress at Central Perk?",
+                "options": ["Rachel", "Phoebe", "Monica", "Emily"],
+                "answer": "Rachel"
+            },
+            {
+                "question": "What is the name of Monica's ex-boyfriend who is a millionaire?",
+                "options": ["Richard", "Janice", "Pete", "Barry"],
+                "answer": "Richard"
+            },
+            {
+                "question": "Which character famously said 'We were on a break!'?",
+                "options": ["Ross", "Chandler", "Joey", "Rachel"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Joey's stuffed penguin in the spin-off series 'Joey'?",
+                "options": ["Hugsy", "Waddle", "Mr. Penguin", "Penny"],
+                "answer": "Mr. Penguin"
+            },
+            {
+                "question": "Which character had a famous catchphrase 'Oh. My. God.'?",
+                "options": ["Janice", "Gunther", "Ursula", "Estelle"],
+                "answer": "Janice"
+            },
+            {
+                "question": "What is the name of Monica and Chandler's twins?",
+                "options": ["Jack and Judy", "Frank and Alice", "Emma and Ben", "Erica and Jack"],
+                "answer": "Erica and Jack"
+            },
+            {
+                "question": "Which character famously said 'I'm not so good with the advice... Can I interest you in a sarcastic comment?'",
+                "options": ["Chandler", "Ross", "Joey", "Monica"],
+                "answer": "Chandler"
+            },
+            {
+                "question": "What is the name of the actor who plays Joey Tribbiani?",
+                "options": ["Matt LeBlanc", "David Schwimmer", "Matthew Perry", "Joey Tribbiani"],
+                "answer": "Matt LeBlanc"
+            },
+            {
+                "question": "Which character was a soap opera actress?",
+                "options": ["Phoebe", "Rachel", "Monica", "Emily"],
+                "answer": "Rachel"
+            },
+            {
+                "question": "What is the name of Ross and Monica's cousin who got married in London?",
+                "options": ["Cassie", "Emily", "Carol", "Cathy"],
+                "answer": "Emily"
+            },
+            {
+                "question": "Which character is a fan of dinosaurs and owns a collection of action figures?",
+                "options": ["Ross", "Chandler", "Joey", "Monica"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Phoebe's twin sister?",
+                "options": ["Ursula", "Janice", "Emily", "Erica"],
+                "answer": "Ursula"
+            },
+            {
+                "question": "Which character is known for being obsessed with cleanliness and order?",
+                "options": ["Monica", "Rachel", "Phoebe", "Emily"],
+                "answer": "Monica"
+            },
+            {
+                "question": "What is the name of Ross and Monica's childhood dog?",
+                "options": ["Chi-Chi", "Smelly", "Fluffy", "LaPooh"],
+                "answer": "Chi-Chi"
+            },
+            {
+                "question": "Which character was known for their elaborate Thanksgiving dinners?",
+                "options": ["Monica", "Rachel", "Phoebe", "Emily"],
+                "answer": "Monica"
+            },
+            {
+                "question": "What is the name of the actor who plays Ross Geller?",
+                "options": ["David Schwimmer", "Matt LeBlanc", "Matthew Perry", "Ross Geller"],
+                "answer": "David Schwimmer"
+            },
+            {
+                "question": "Which character famously said 'I'm breezy'?",
+                "options": ["Phoebe", "Rachel", "Monica", "Emily"],
+                "answer": "Rachel"
+            },
+            {
+                "question": "What is the name of Joey's stuffed penguin in the episode 'The One with the Dirty Girl'?",
+                "options": ["Hugsy", "Waddle", "Mr. Penguin", "Penny"],
+                "answer": "Waddle"
+            },
+            {
+                "question": "Which character had a pet monkey named Marcel?",
+                "options": ["Ross", "Chandler", "Joey", "Rachel"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Phoebe's scientist husband?",
+                "options": ["Mike", "David", "Joey", "Paul"],
+                "answer": "Mike"
+            },
+            {
+                "question": "Which character is known for saying 'I KNOW!' in a high-pitched voice?",
+                "options": ["Janice", "Gunther", "Ursula", "Estelle"],
+                "answer": "Estelle"
+            },
+            {
+                "question": "What is the name of Ross and Monica's high school friend who lost a lot of weight?",
+                "options": ["Fat Monica", "Thin Monica", "Rachel", "Phoebe"],
+                "answer": "Fat Monica"
+            },
+            {
+                "question": "Which character worked as a chef?",
+                "options": ["Monica", "Rachel", "Phoebe", "Emily"],
+                "answer": "Monica"
+            },
+            {
+                "question": "What is the name of Joey's agent?",
+                "options": ["Estelle", "Gunther", "Ursula", "Janice"],
+                "answer": "Estelle"
+            },
+            {
+                "question": "Which character famously said 'We were on a break!''?",
+                "options": ["Ross", "Chandler", "Joey", "Rachel"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Monica's chef ex-boyfriend?",
+                "options": ["Richard", "Janice", "Pete", "Barry"],
+                "answer": "Pete"
+            },
+            {
+                "question": "Which character is known for their trademark laugh?",
+                "options": ["Janice", "Gunther", "Ursula", "Estelle"],
+                "answer": "Janice"
+            },
+            {
+                "question": "What is the name of Joey's soap opera character?",
+                "options": ["Dr. Drake Ramoray", "Dr. Richard Burke", "Dr. Mike Hannigan", "Dr. Leonard Green"],
+                "answer": "Dr. Drake Ramoray"
+            },
+            {
+                "question": "Which character was an aspiring musician?",
+                "options": ["Phoebe", "Rachel", "Monica", "Emily"],
+                "answer": "Phoebe"
+            },
+            {
+                "question": "What is the name of the coffee shop where the friends often hang out?",
+                "options": ["Central Perk", "Central Park", "Perk Central", "Perk Place"],
+                "answer": "Central Perk"
+            },
+            {
+                "question": "Which character famously said 'I got off the plane.'?",
+                "options": ["Rachel", "Phoebe", "Monica", "Emily"],
+                "answer": "Rachel"
+            },
+            {
+                "question": "What is the name of Monica's ex-boyfriend who became a close friend of the group?",
+                "options": ["Richard", "Janice", "Pete", "Barry"],
+                "answer": "Richard"
+            },
+            {
+                "question": "Which character is known for their catchphrase 'Could I BE wearing any more clothes?'",
+                "options": ["Chandler", "Ross", "Joey", "Monica"],
+                "answer": "Joey"
+            },
+            {
+                "question": "What is the name of Joey's identical hand twin?",
+                "options": ["Carl", "Kyle", "Ken", "Kevin"],
+                "answer": "Ken"
+            },
+            {
+                "question": "Which character is known for saying 'Pivot!' while trying to move a couch up the stairs?",
+                "options": ["Ross", "Chandler", "Joey", "Monica"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Monica and Chandler's pet chicken?",
+                "options": ["Linda", "Janice", "Phoebe", "Estelle"],
+                "answer": "Janice"
+            },
+            {
+                "question": "Which character had a crush on Rachel throughout high school?",
+                "options": ["Ross", "Chandler", "Joey", "Monica"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Ross and Monica's grandmother?",
+                "options": ["Nana", "Nanny", "Grandma Geller", "Grammy"],
+                "answer": "Nana"
+            },
+            {
+                "question": "Which character famously said 'How you doin?'",
+                "options": ["Chandler", "Ross", "Joey", "Monica"],
+                "answer": "Joey"
+            },
+            {
+                "question": "What is the name of Chandler's annoying roommate before Joey?",
+                "options": ["Eddie", "Gunther", "Mike", "Richard"],
+                "answer": "Eddie"
+            },
+            {
+                "question": "What is the name of Ross and Monica's pet dog?",
+                "options": ["Chick", "Duck", "Moo", "Whiskers"],
+                "answer": "Chick"
+            },
+            {
+                "question": "What song is Phoebe best known for?",
+                "options": ["Smelly Cat", "I'll Be There for You", "Wonderwall", "My Generation"],
+                "answer": "Smelly Cat"
+            },
+            {
+                "question": "Which character had a third nipple?",
+                "options": ["Ross", "Joey", "Chandler", "Phoebe"],
+                "answer": "Chandler"
+            },
+            {
+                "question": "What is the name of Ross and Monica's parents?",
+                "options": ["Jack and Judy", "Frank and Alice", "Frank and Phoebe", "Richard and Emily"],
+                "answer": "Jack and Judy"
+            },
+            {
+                "question": "What is the name of Rachel's sister?",
+                "options": ["Phoebe", "Monica", "Amy", "Emily"],
+                "answer": "Amy"
+            },
+            {
+                "question": "Which character worked as a paleontologist?",
+                "options": ["Ross", "Chandler", "Joey", "Rachel"],
+                "answer": "Ross"
+            },
+            {
+                "question": "What is the name of Joey's stuffed penguin?",
+                "options": ["Hugsy", "Waddle", "Mr. Penguin", "Penny"],
+                "answer": "Hugsy"
+            },
             {
                 "question": "What is the name of Ross and Monica's sister?",
                 "options": ["Phoebe", "Rachel", "Joey", "Emily"],
@@ -962,6 +2217,306 @@
                 "question": "What is the name of the planet where the Guardians of the Galaxy first meet?",
                 "options": ["Xandar", "Sakaar", "Knowhere", "Ego"],
                 "answer": "Knowhere"
+            },
+            {
+                "question": "Who is the strongest Avenger?",
+                "options": ["Iron Man", "Thor", "Hulk", "Captain America"],
+                "answer": "Hulk"
+            },
+            {
+                "question": "What is the real name of the superhero Iron Man?",
+                "options": ["Steve Rogers", "Bruce Wayne", "Tony Stark", "Peter Parker"],
+                "answer": "Tony Stark"
+            },
+            {
+                "question": "What is the name of Thor's enchanted hammer?",
+                "options": ["Stormbreaker", "Mjolnir", "Gungnir", "Aegis"],
+                "answer": "Mjolnir"
+            },
+            {
+                "question": "Who is the main villain in the Avengers movie?",
+                "options": ["Loki", "Thanos", "Red Skull", "Ultron"],
+                "answer": "Loki"
+            },
+            {
+                "question": "What is the name of Captain America's shield?",
+                "options": ["Star-Spangled Shield", "Patriot Shield", "Freedom Shield", "Vibranium Shield"],
+                "answer": "Vibranium Shield"
+            },
+            {
+                "question": "Which Marvel character is known for saying 'I am Groot'?",
+                "options": ["Rocket Raccoon", "Drax the Destroyer", "Groot", "Gamora"],
+                "answer": "Groot"
+            },
+            {
+                "question": "Who is the leader of the X-Men?",
+                "options": ["Wolverine", "Professor X", "Cyclops", "Magneto"],
+                "answer": "Professor X"
+            },
+            {
+                "question": "Which Infinity Stone gives the power of time manipulation?",
+                "options": ["Space Stone", "Mind Stone", "Reality Stone", "Time Stone"],
+                "answer": "Time Stone"
+            },
+            {
+                "question": "Who is the alter ego of the superhero Black Widow?",
+                "options": ["Natasha Romanoff", "Wanda Maximoff", "Carol Danvers", "Hope Van Dyne"],
+                "answer": "Natasha Romanoff"
+            },
+            {
+                "question": "What is the name of the planet where the Guardians of the Galaxy first meet?",
+                "options": ["Xandar", "Sakaar", "Knowhere", "Ego"],
+                "answer": "Knowhere"
+            },
+            {
+                "question": "What is the real name of the superhero Spider-Man?",
+                "options": ["Peter Parker", "Miles Morales", "Eddie Brock", "Harry Osborn"],
+                "answer": "Peter Parker"
+            },
+            {
+                "question": "Which character wields the Infinity Gauntlet in the Marvel comics?",
+                "options": ["Iron Man", "Captain America", "Thor", "Thanos"],
+                "answer": "Thanos"
+            },
+            {
+                "question": "What is the name of the super-soldier serum that gave Captain America his powers?",
+                "options": ["Extremis", "Infinity Formula", "Omnipotent Formula", "Super Soldier Serum"],
+                "answer": "Super Soldier Serum"
+            },
+            {
+                "question": "Which Marvel movie features the character T'Challa as the king of Wakanda?",
+                "options": ["Iron Man 3", "Thor: Ragnarok", "Black Panther", "Captain Marvel"],
+                "answer": "Black Panther"
+            },
+            {
+                "question": "What is the real name of the superhero Doctor Strange?",
+                "options": ["Stephen Strange", "Scott Lang", "Sam Wilson", "Steve Strange"],
+                "answer": "Stephen Strange"
+            },
+            {
+                "question": "Which Marvel character is known for saying 'I can do this all day'?",
+                "options": ["Captain America", "Iron Man", "Hawkeye", "Black Widow"],
+                "answer": "Captain America"
+            },
+            {
+                "question": "Who is the archenemy of the superhero Daredevil?",
+                "options": ["Kingpin", "Bullseye", "Elektra", "The Punisher"],
+                "answer": "Kingpin"
+            },
+            {
+                "question": "What is the name of the fictional metal found in Wakanda?",
+                "options": ["Vibranium", "Adamantium", "Promethium", "Uru"],
+                "answer": "Vibranium"
+            },
+            {
+                "question": "Which character has the ability to shrink and control ants?",
+                "options": ["Hawkeye", "Ant-Man", "Falcon", "Black Widow"],
+                "answer": "Ant-Man"
+            },
+            {
+                "question": "What is the name of the team of superheroes led by Nick Fury?",
+                "options": ["The Avengers", "The Defenders", "The X-Men", "The Guardians of the Galaxy"],
+                "answer": "The Avengers"
+            },
+            {
+                "question": "Which Marvel movie features the character Carol Danvers as the superhero Captain Marvel?",
+                "options": ["Iron Man 2", "Captain America: The First Avenger", "Guardians of the Galaxy", "Captain Marvel"],
+                "answer": "Captain Marvel"
+            },
+            {
+                "question": "What is the name of the planet destroyed by the villain Thanos in the Marvel movies?",
+                "options": ["Alderaan", "Krypton", "Xandar", "Titan"],
+                "answer": "Xandar"
+            },
+            {
+                "question": "Who is the main antagonist in the Marvel movie 'Captain America: Civil War'?",
+                "options": ["Ultron", "Loki", "Baron Zemo", "Red Skull"],
+                "answer": "Baron Zemo"
+            },
+            {
+                "question": "What is the name of the villainous organization in the Marvel comics and movies?",
+                "options": ["Hydra", "AIM", "SWORD", "Sinister Six"],
+                "answer": "Hydra"
+            },
+            {
+                "question": "Which character has the ability to control and manipulate metal?",
+                "options": ["Wolverine", "Magneto", "Cyclops", "Storm"],
+                "answer": "Magneto"
+            },
+            {
+                "question": "What is the real name of the superhero Black Panther?",
+                "options": ["T'Challa", "N'Jadaka", "Shuri", "M'Baku"],
+                "answer": "T'Challa"
+            },
+            {
+                "question": "Which Marvel movie features the character Peter Quill as the leader of the Guardians of the Galaxy?",
+                "options": ["Guardians of the Galaxy", "Avengers: Infinity War", "Thor: Ragnarok", "Black Widow"],
+                "answer": "Guardians of the Galaxy"
+            },
+            {
+                "question": "What is the name of the alien race that invaded Earth in the Marvel movie 'The Avengers'?",
+                "options": ["Chitauri", "Skrulls", "Kree", "Sakaarans"],
+                "answer": "Chitauri"
+            },
+            {
+                "question": "Who is the love interest of the superhero Thor?",
+                "options": ["Jane Foster", "Pepper Potts", "Gamora", "Natasha Romanoff"],
+                "answer": "Jane Foster"
+            },
+            {
+                "question": "Which character is known for wielding a bow and arrow?",
+                "options": ["Hawkeye", "Black Widow", "Falcon", "Winter Soldier"],
+                "answer": "Hawkeye"
+            },
+            {
+                "question": "What is the name of the sentient raccoon in the Guardians of the Galaxy?",
+                "options": ["Rocket Raccoon", "Star-Lord", "Groot", "Drax the Destroyer"],
+                "answer": "Rocket Raccoon"
+            },
+            {
+                "question": "Who is the main villain in the Marvel movie 'Black Panther'?",
+                "options": ["Erik Killmonger", "Klaw", "Ulysses Klaue", "Thanos"],
+                "answer": "Erik Killmonger"
+            },
+            {
+                "question": "What is the name of the planet Thor is from?",
+                "options": ["Asgard", "Ego", "Vormir", "Sakaar"],
+                "answer": "Asgard"
+            },
+            {
+                "question": "Who is the leader of the Guardians of the Galaxy?",
+                "options": ["Rocket Raccoon", "Groot", "Gamora", "Star-Lord"],
+                "answer": "Star-Lord"
+            },
+            {
+                "question": "Which character has the ability to control and manipulate ice and cold?",
+                "options": ["Thor", "Loki", "Hela", "Iceman"],
+                "answer": "Loki"
+            },
+            {
+                "question": "What is the name of the superhero team consisting of mutant characters in the Marvel comics?",
+                "options": ["The Inhumans", "The Eternals", "The New Mutants", "The X-Men"],
+                "answer": "The X-Men"
+            },
+            {
+                "question": "Which Marvel movie features the character Scott Lang as the superhero Ant-Man?",
+                "options": ["Iron Man 3", "Ant-Man and the Wasp", "Doctor Strange", "Spider-Man: Homecoming"],
+                "answer": "Ant-Man and the Wasp"
+            },
+            {
+                "question": "What is the name of the villainous AI created by Tony Stark in the Marvel comics and movies?",
+                "options": ["Ultron", "Vision", "JARVIS", "H.A.L."],
+                "answer": "Ultron"
+            },
+            {
+                "question": "Who is the sister of the superhero Black Panther?",
+                "options": ["Shuri", "Nakia", "Okoye", "Ramonda"],
+                "answer": "Shuri"
+            },
+            {
+                "question": "Which character is known for the catchphrase 'I am Iron Man'?",
+                "options": ["Tony Stark", "Peter Parker", "Bruce Banner", "Pepper Potts"],
+                "answer": "Tony Stark"
+            },
+            {
+                "question": "What is the name of the dimension from which Doctor Strange draws his magical powers?",
+                "options": ["The Quantum Realm", "The Dark Dimension", "The Negative Zone", "The Astral Plane"],
+                "answer": "The Dark Dimension"
+            },
+            {
+                "question": "Who is the love interest of the superhero Peter Parker (Spider-Man)?",
+                "options": ["Mary Jane Watson", "Gwen Stacy", "Liz Allan", "Felicia Hardy"],
+                "answer": "Mary Jane Watson"
+            },
+            {
+                "question": "What is the name of the artificial intelligence system built into Iron Man's suit?",
+                "options": ["Friday", "Karen", "JARVIS", "EDITH"],
+                "answer": "JARVIS"
+            },
+            {
+                "question": "Who is the main villain in the Marvel movie 'Thor: Ragnarok'?",
+                "options": ["Hela", "Loki", "Thanos", "Malekith"],
+                "answer": "Hela"
+            },
+            {
+                "question": "What is the name of the organization that Captain America fights against in 'Captain America: The Winter Soldier'?",
+                "options": ["HYDRA", "AIM", "S.H.I.E.L.D.", "Red Skull Society"],
+                "answer": "HYDRA"
+            },
+            {
+                "question": "Which character is known for the catchphrase 'I am Groot'?",
+                "options": ["Rocket Raccoon", "Groot", "Drax the Destroyer", "Gamora"],
+                "answer": "Groot"
+            },
+            {
+                "question": "What is the real name of the superhero Natasha Romanoff (Black Widow)?",
+                "options": ["Natasha Romanoff", "Wanda Maximoff", "Carol Danvers", "Hope Van Dyne"],
+                "answer": "Natasha Romanoff"
+            },
+            {
+                "question": "Which Marvel character is a genius billionaire playboy philanthropist?",
+                "options": ["Iron Man", "Thor", "Hulk", "Captain America"],
+                "answer": "Iron Man"
+            },
+            {
+                "question": "Who is the archenemy of the superhero Spider-Man?",
+                "options": ["Venom", "Green Goblin", "Doctor Octopus", "Sandman"],
+                "answer": "Green Goblin"
+            },
+            {
+                "question": "What is the name of the powerful artifact that holds the Soul Stone?",
+                "options": ["Tesseract", "Orb", "Eye of Agamotto", "Infinity Gauntlet"],
+                "answer": "Infinity Gauntlet"
+            },
+            {
+                "question": "Who is the love interest of the superhero Bruce Banner (Hulk)?",
+                "options": ["Betty Ross", "Natasha Romanoff", "Jane Foster", "Pepper Potts"],
+                "answer": "Betty Ross"
+            },
+            {
+                "question": "Which character is known for the catchphrase 'I can do this all day'?",
+                "options": ["Captain America", "Iron Man", "Thor", "Black Widow"],
+                "answer": "Captain America"
+            },
+            {
+                "question": "What is the name of the fictional metal found in Wakanda?",
+                "options": ["Vibranium", "Adamantium", "Promethium", "Uru"],
+                "answer": "Vibranium"
+            },
+            {
+                "question": "Which Marvel character is known for his regenerative healing powers?",
+                "options": ["Wolverine", "Deadpool", "Daredevil", "Punisher"],
+                "answer": "Wolverine"
+            },
+            {
+                "question": "Who is the main villain in the Marvel movie 'Doctor Strange'?",
+                "options": ["Baron Mordo", "Dormammu", "Kaecilius", "The Ancient One"],
+                "answer": "Dormammu"
+            },
+            {
+                "question": "What is the name of the dimension from which Doctor Strange draws his magical powers?",
+                "options": ["The Quantum Realm", "The Dark Dimension", "The Negative Zone", "The Astral Plane"],
+                "answer": "The Dark Dimension"
+            },
+            {
+                "question": "Which character is known for the catchphrase 'I'm always angry'?",
+                "options": ["Iron Man", "Thor", "Hulk", "Captain America"],
+                "answer": "Hulk"
+            },
+            {
+                "question": "Who is the archenemy of the superhero Daredevil?",
+                "options": ["Bullseye", "Kingpin", "Elektra", "The Punisher"],
+                "answer": "Kingpin"
+            },
+            {
+                "question": "What is the name of the powerful artifact that holds the Time Stone?",
+                "options": ["Tesseract", "Orb", "Eye of Agamotto", "Infinity Gauntlet"],
+                "answer": "Eye of Agamotto"
+            },
+            {
+                "question": "Who is the love interest of the superhero T'Challa (Black Panther)?",
+                "options": ["Nakia", "Shuri", "Okoye", "Ramonda"],
+                "answer": "Nakia"
             }
         ]
 }
