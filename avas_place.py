@@ -21,7 +21,7 @@ game_layout = html.Div(
             disabled=False,
             style={'width': '200px', 'margin-bottom': '20px', 'color': 'black'}
         ),
-        html.P("Try to answer all 50 questions correctly:", style={'color': 'black', 'font-size': '20px'}),
+        html.P("Answer as many questions correctly as you can:", style={'color': 'black', 'font-size': '20px'}),
         html.P(id='question', style={'color': 'black', 'font-size': '24px', 'font-weight': 'bold'}),
         dcc.RadioItems(
             id='options',
